@@ -27,9 +27,17 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+Hello! I am **JeongBeom Baek**. You can call me **Eric Baek** an undergraduate
+Research & Teaching Assistant, independent AI researcher, and software
+engineer. I am passionate about architecting AI agents, Intelligence systems,
+Reinforcement Learning, and Personal Knowledge Management systems.
 
-
-Hello! I am **JeongBeom Baek**. You can call me **Eric Baek** an undergraduate Research & Teaching Assistant, independent AI researcher, and software engineer. I am passionate about architecting AI agents, Intelligence systems, Reinforcement Learning, and Personal Knowledge Management systems.
-
-I spend my spare time exploring ideas on subreddits like [r/MachineLearning](https://www.reddit.com/r/MachineLearning/), [r/deeplearning](https://www.reddit.com/r/deeplearning/), [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/), [r/ArtificialIntelligence](https://www.reddit.com/r/ArtificialIntelligence/), [r/reinforcementlearning](https://www.reddit.com/r/reinforcementlearning/), [r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/), [r/pkm](https://www.reddit.com/r/pkm/), and [r/buildapc](https://www.reddit.com/r/buildapc/).
-
+I spend my spare time exploring ideas on subreddits like
+[r/MachineLearning](https://www.reddit.com/r/MachineLearning/),
+[r/deeplearning](https://www.reddit.com/r/deeplearning/),
+[r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/),
+[r/ArtificialIntelligence](https://www.reddit.com/r/ArtificialIntelligence/),
+[r/reinforcementlearning](https://www.reddit.com/r/reinforcementlearning/),
+[r/ObsidianMD](https://www.reddit.com/r/ObsidianMD/),
+[r/pkm](https://www.reddit.com/r/pkm/), and
+[r/buildapc](https://www.reddit.com/r/buildapc/).

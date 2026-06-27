@@ -11,5 +11,10 @@ _sass/font-awesome/*.scss
 _scripts/*
 _data/citations.yml
 _config.yml
+_pages/about.md
+_news/
+_posts/
 _news/**
 _posts/**
+_news/*
+_posts/*

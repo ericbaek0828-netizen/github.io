@@ -6,8 +6,8 @@ title: blank # the website title (if blank, full name will be used instead)
 first_name: JeongBeom
 middle_name: 
 last_name: Baek
-contact_note: ericbaek0828@gmail.com
-  You can even add a little note about which of these is the best way to reach you.
+contact_note: >
+  You can contact me at ericbaek0828@gmail.com.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >

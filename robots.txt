@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://alshedivat.github.io/""/sitemap.xml
+Sitemap: https://ericbaek0828-netizen.github.io/sitemap.xml

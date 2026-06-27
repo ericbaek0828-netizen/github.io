@@ -23,14 +23,4 @@ latest_posts:
 
 
 
-Hello! I am **Eric Baek**, an undergraduate Research & Teaching Assistant, independent AI researcher, and software engineer. I am passionate about architecting autonomous agents and cognitive systems.
-
-My core research focuses on building **Multi-agent Orchestration Frameworks**, **Personal Knowledge Management (PKM) Systems**, and **Quantitative Trading Architectures**.
-
-Specifically, my research interests lie at the intersection of:
-- **Agentic Reasoning & Debate**: Overcoming LLM hallucinations via multi-agent adversarial debate (e.g., Ouroboros-inspired mathematical ambiguity gating).
-- **Simulation & Prediction**: Utilizing Monte Carlo Tree Search (MCTS) for action branching and predictive modeling in agentic environments.
-- **Memory Systems**: Bridging Large Language Models with Zettelkasten methodologies to ensure persistent, atomic knowledge retrieval.
-
-Currently, I am architecting a local-first, self-evolving AI cognitive architecture that integrates reasoning, long-term memory, and cognitive bias mitigation. My goal is to build robust reasoning frameworks that can securely and logically augment human intelligence.
-
+Hello! I am **JeongBeom Baek**, an undergraduate Research & Teaching Assistant, independent AI researcher, and software engineer. I am passionate about architecting AI agents, Intelligence systems, Reinforcement Learning, and Personal Knowledge Management systems.

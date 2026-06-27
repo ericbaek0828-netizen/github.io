@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Sungkul University</a>. 21340. Incheon,South Korea. ericbaek0828@gmail.com
+subtitle: <a href='https://www.sungkyul.ac.kr/skukr/index.do'>Sungkul University</a>. 21340. Incheon,South Korea. ericbaek0828@gmail.com.
 
 profile:
   align: right

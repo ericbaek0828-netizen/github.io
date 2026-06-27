@@ -1,33 +1,52 @@
 ---
 layout: post
-title: A long announcement with details
-date: 2015-11-07 16:11:00-0400
+title: AI Agent Framework, Multi-Agent & PKM
+date: 2026-06-27 19:06:00 +0900
+description: J.a.r.v.i.s. is back to the game!
 inline: false
-related_posts: false
+related_posts: true
 ---
 
-Announcements and news can be much longer than just quick inline posts. In fact, they can have all the features available for the standard blog posts. See below.
+I am excited to share my current plans for Build **J.A.R.V.I.S.** and my study tracks in AI agents, reinforcement learning, and knowledge systems. This roadmap outlines my main milestones.
+I spent 3 days to make this Framework in My Obsidian Vault
+
+<img src="/github.io/assets/img/jarvis_architecture.png" style="width: 100%; max-width: 800px; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+
+#### Overview
+The diagram above illustrates the core cognitive and decision-making architecture of **J.A.R.V.I.S.** I envision. It is organized into three main conceptual sections:
+
+1. **7 Layers**
+   * **Layer 1~7:** Ambient Awareness, Proactive Engine, World Model, Personality & EQ, Long-Term Memory, Tool Forge, Social Interface
+2. **Bi-directional Communication**
+   * Rather than a fixed, one-way flow, each layer and tier is organically interconnected through real-time feedback loops for exchanging goals, commands, and action results. 
+3. **MCTS & Decision-Making Pipeline (Execution Pipeline)**
+   * The right side of the diagram depicts the pipeline for resolving complex tasks. It follows a structured process: **Decomposition -> Deliberation -> MCTS (Tree Search) -> Verification**, ensuring optimal action selection through iterative refinement.
 
 ---
 
-Jean shorts raw denim Vice normcore, art party High Life PBR skateboard stumptown vinyl kitsch. Four loko meh 8-bit, tousled banh mi tilde forage Schlitz dreamcatcher twee 3 wolf moon. Chambray asymmetrical paleo salvia, sartorial umami four loko master cleanse drinking vinegar brunch. <a href="https://www.pinterest.com">Pinterest</a> DIY authentic Schlitz, hoodie Intelligentsia butcher trust fund brunch shabby chic Kickstarter forage flexitarian. Direct trade <a href="https://en.wikipedia.org/wiki/Cold-pressed_juice">cold-pressed</a> meggings stumptown plaid, pop-up taxidermy. Hoodie XOXO fingerstache scenester Echo Park. Plaid ugh Wes Anderson, freegan pug selvage fanny pack leggings pickled food truck DIY irony Banksy.
+### 1. J.A.R.V.I.S. Core (Multi-Agent Orchestration)
+* **Goal:** Build a robust orchestration layer capable of coordinating specialized sub-agents with high correctness.
+* **Key Tasks:**
+  * Implement **MCTS (Monte Carlo Tree Search)** for complex problem decomposition and path planning.
+  * Implement self-correcting prompt.
 
-#### Hipster list
+### 2. Reinforcement Learning & Investing
+* **Goal:** Apply RL models to dynamic environments
+* **Key Tasks:**
+  * Design trading envi for RL agent training.
 
-<ul>
-    <li>brunch</li>
-    <li>fixie</li>
-    <li>raybans</li>
-    <li>messenger bag</li>
-</ul>
-
-Hoodie Thundercats retro, tote bag 8-bit Godard craft beer gastropub. Truffaut Tumblr taxidermy, raw denim Kickstarter sartorial dreamcatcher. Quinoa chambray slow-carb salvia readymade, bicycle rights 90's yr typewriter selfies letterpress cardigan vegan.
+### 3. Personal Knowledge Management (PKM)
+* **Goal:** Build an auto-linking local knowledge graph to manage research references and coding logs.
+* **Key Tasks:**
+  * Create a local Markdown parser to discover semantic connections between research notes.
+  * Build a graph visualization dashboard for active study tracks.
 
 ---
-
-Pug heirloom High Life vinyl swag, single-origin coffee four dollar toast taxidermy reprehenderit fap distillery master cleanse locavore. Est anim sapiente leggings Brooklyn ea. Thundercats locavore excepteur veniam eiusmod. Raw denim Truffaut Schlitz, migas sapiente Portland VHS twee Bushwick Marfa typewriter retro id keytar.
-
-> We do not grow absolutely, chronologically. We grow sometimes in one dimension, and not in another, unevenly. We grow partially. We are relative. We are mature in one realm, childish in another.
-> —Anais Nin
-
-Fap aliqua qui, scenester pug Echo Park polaroid irony shabby chic ex cardigan church-key Odd Future accusamus. Blog stumptown sartorial squid, gastropub duis aesthetic Truffaut vero. Pinterest tilde twee, odio mumblecore jean shorts lumbersexual.
+#### Preferences
+1. Oh my ClaudeCode(Harness Engineering)
+2. RSI Lab
+3. Hermes Agent
+4. Jarvis Wikipedia
+5. Dwarkesh Patel Youtube( Richard Sutton, Dario Amodei)
+6. [The Equation That Beat Wall Street](https://www.youtube.com/watch?v=A5w-dEgIU1M)
+etc.

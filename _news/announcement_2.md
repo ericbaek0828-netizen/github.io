@@ -10,7 +10,7 @@ related_posts: true
 I am excited to share my current plans for Build **J.A.R.V.I.S.** and my study tracks in AI agents, reinforcement learning, and knowledge systems. This roadmap outlines my main milestones.
 I spent 3 days to make this Framework in My Obsidian Vault
 
-<img src="/github.io/assets/img/jarvis_architecture.png" style="width: 100%; max-width: 800px; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
+<img src="/github.io/assets/img/jarvis_canvas.png" style="width: 100%; max-width: 800px; display: block; margin: 20px auto; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
 
 #### Overview
 The diagram above illustrates the core cognitive and decision-making architecture of **J.A.R.V.I.S.** I envision. It is organized into three main conceptual sections:

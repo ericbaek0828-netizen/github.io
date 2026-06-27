@@ -2,16 +2,17 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research & Teaching Assistant(Undergraduate), AI Researcher & Software Engineer
+subtitle: <a href='#'>Sungkul University</a>. 21340. Incheon,South Korea. ericbaek0828@gmail.com
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>None</p>
-    <p>21340</p>
-    <p>Incheon, South Korea 21340</p>
+    <p>010-8892-6254</p>
+    <p>27, Cheyukgwan-ro, Bupyeong-gu, Incheon, South Korea</p>
+    <p>Incheon,  21340</p>
+
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 

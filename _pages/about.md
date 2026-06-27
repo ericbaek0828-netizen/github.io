@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: AI Researcher & Engineer. Focusing on Multi-Agent Orchestration and Cognitive Bias Prevention in LLMs.
+subtitle: AI Researcher & Engineer
 
 profile:
   align: right
@@ -21,8 +21,6 @@ latest_posts:
   enabled: false
 ---
 
-Hello! I am **JeongBeom Baek**, an AI Researcher and Engineer deeply interested in pushing the boundaries of autonomous agents.
+Write your biography here. Tell the world about yourself. You can put a picture in, too. Just name your picture `prof_pic.jpg` and put it in the `assets/img/` folder.
 
-My core research focuses on **Multi-Agent Orchestration** and mitigating hallucination and logical fallacies in Large Language Models (LLMs). Currently, I am actively researching the application of **Monte Carlo Tree Search (MCTS)** for autonomous reasoning agents, alongside designing architectures for **Cognitive Bias Prevention** (such as Skeptic and Devil's Advocate swarms).
-
-I believe the next frontier of AI lies not just in scaling models, but in creating robust, verifiable, and logically sound reasoning frameworks that can securely augment human intelligence.
+You can link to your social media connections at the bottom. This theme is set up to use Font Awesome icons and Academicons. Add your GitHub, LinkedIn, Google Scholar, or just disable all of them in the configuration.

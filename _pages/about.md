@@ -37,13 +37,13 @@ It started with a match.
 
 In middle school, I watched a documentary summarizing AlphaGo's historic 2016 match against Lee Sedol and felt a jolt I couldn't shake — the kind that quietly rewires what you think is possible. I was already tinkering with code for fun, but after that, I started pulling on an AI thread that I haven't let go of since.
 
-Throughout high school, while most of my peers followed the standard curriculum, I was absorbing AI theory on my own — patching together papers, textbooks, and online lectures in whatever time I could find.
+Throughout high school, while most of my peers followed the standard curriculum, I was absorbing AI theory on my own — exploring the mathematics of deep learning, testing the limits of early LLMs, and patching together papers, textbooks, and online lectures in whatever time I could find.
 
 ---
 
 ### 📝 Research Instinct: Catching Problems Before They Have Names
 
-In **2024 (my sophomore year of high school)**, I participated in the **Korea Science & Technology Competition (한국과학기술경진대회)**. ChatGPT had just arrived and the world was celebrating. I was skeptical.
+In **2024 (my sophomore year of high school)**, driven by my ongoing experiments with local models like Llama and my explorations into on-device AI, I participated in the **Korea Science & Technology Competition (한국과학기술경진대회)**. ChatGPT had just arrived and the world was celebrating. I was skeptical.
 
 I noticed LLMs were fluent but brittle — they could produce confident-sounding text while failing basic inferential reasoning. My paper proposed a **Critical Thinking Framework** to address this literacy gap.
 
@@ -69,11 +69,11 @@ Honestly, I was still learning myself. I wasn't deep enough in the material to f
 
 ### ⚙️ Engineering Sensibility: Building with Judgment, Not Just Code
 
-I care less about which tool I use and more about whether the system I'm building actually solves the problem.
+I have a highly experimental, hyper-focused learning style. I view my natural spontaneity and tendency to deeply immerse myself in my interests not as a distraction, but as an engine for rapid prototyping. I care less about which tool I use and more about rapidly testing new ideas to see if the system I'm building actually solves the problem.
 
 Some examples of how I think:
 
-- **J.A.R.V.I.S. Architecture**: What started as a conceptual named-agent framework — Harley (PM), Friday (generator), Edith (QA) — is evolving into a core architecture currently in active planning and development. I am designing a multi-agent orchestration system focused on layered agent routing and robust state management. I care deeply about the architectural design, carefully planning the core structure before rushing to deployment.
+- **J.A.R.V.I.S. Architecture**: What started as a conceptual named-agent framework — Harley (PM), Friday (generator), Edith (QA) — is evolving into a core architecture currently in active planning and development. I am designing a **multi-agent orchestration system** integrating **MCTS-based planning algorithms** and **Docker container sandboxing** for secure, robust state management. I care deeply about the architectural design, carefully planning the core structure before rushing to deployment.
 
 - **Game Jam (2026)**: With a 4-day window and a 3-person team (2 developers including myself), I chose to build using an **AI-assisted no-code workflow (Harness Engineering)** — not because it was the easy path, but because it was the highest-leverage one given the constraints. The result: a working 2D side-scroller with a suspicion gauge system, stat-based NPC persuasion mechanics, and a branching multi-ending structure. Our execution received highly positive verbal feedback from the development judges, affirming my technical approach.
 

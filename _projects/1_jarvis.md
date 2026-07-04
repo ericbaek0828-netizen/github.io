@@ -1,121 +1,63 @@
 ---
 layout: page
-title: "J.A.R.V.I.S. — Multi-Agent Orchestration System"
-description: Autonomous multi-agent AI assistant with Nunchi (눈치) social context awareness and Harness Engineering pipeline
+title: "J.A.R.V.I.S. — Multi-Agent Orchestration Prototype"
+description: An independent project prototyping an autonomous multi-agent developer pipeline using Docker container sandboxing.
 img: assets/img/jarvis_canvas.png
 importance: 1
 category: work
 related_publications: false
 ---
 
-## 🧠 What Is J.A.R.V.I.S.?
+## 🧠 Project Overview
 
-J.A.R.V.I.S. (Just A Rather Very Intelligent System) is my flagship independent research project — a **conceptual architecture and prototype** for a multi-agent orchestration system designed to go beyond chatbots and act as a genuine autonomous engineering collaborator.
-
-The core thesis: most AI assistants are reactive. J.A.R.V.I.S. is designed to be **proactive, self-correcting, and socially aware** — capable of understanding not just what you say, but what you mean, what you feel, and what you haven't said yet.
+**J.A.R.V.I.S.** (Just A Rather Very Intelligent System) is an independent development project where I prototype a multi-agent orchestration architecture. The goal is to build an autonomous collaborator that can break down tasks, generate code, execute it in a safe sandbox, and self-correct based on execution feedback.
 
 ---
 
-## 🏛️ Architecture: Harness Engineering
+## 🏛️ System Architecture
 
-The execution model I call **Harness Engineering** is a closed-loop multi-agent sprint pipeline:
+The core pipeline operates as a closed-loop multi-agent workflow:
 
 ```
 [User Goal]
-    ↓
-[Harley PM — Roadmap & Definition of Done]
-    ↓ (DoD Approval Gate)
-Loop:
-  [Friday — Code Generation]
-      ↓
-  [Docker Sandbox — Isolated Execution]
-      ↓
-  [Edith QA — Audit & Verdict]
-      ↓ (PASS → Ship | FAIL → Friday retries with Edith's critique)
-    ↓
-[Final User Approval]
+     ↓
+[Harley (PM) — Task Decomposition & PRD]
+     ↓
+Loop (Self-Correction):
+  [Friday (Generator) — Code Implementation]
+     ↓
+  [Docker Sandbox — Execution & Test Run]
+     ↓
+  [Edith (QA Auditor) — Code Review & Verdict]
+     ↓ (FAIL -> Retry with critique | PASS -> Ship)
+[Final Output]
 ```
 
 ### Agent Roles
 
-| Agent                  | Role                                                | Model         |
-| ---------------------- | --------------------------------------------------- | ------------- |
-| **Harley (PM)**        | Task decomposition, PRD, Definition of Done         | Llama 4 Scout |
-| **Friday (Generator)** | Code implementation, iteration                      | Llama 4 Scout |
-| **Edith (QA Auditor)** | Adversarial critique, security, correctness verdict | GPT-OSS 120B  |
+- **Harley (Product Manager):** Decomposes user goals into actionable sub-tasks and defines the criteria for completion.
+- **Friday (Developer Agent):** Generates and refines code implementations based on the requirements.
+- **Edith (QA Auditor):** Reviews generated code, checks for potential bugs, and issues a `PASS` or `FAIL` verdict.
 
-### Key Engineering Decisions
+### Key Engineering Elements
 
-- **Tiki-Taka Loop**: Friday and Edith engage in direct back-and-forth — Friday writes, Edith critiques with a `Verdict: PASS/FAIL`, Friday revises. No human bottleneck in the correction cycle.
-- **Infinite Loop Freeze Gateway**: If the same error signature repeats 6+ times, the system serializes state to `sprint_state_{thread_id}.json`, pauses, and surfaces a structured intervention request. The system never spins silently.
-- **Docker Sandbox Execution**: All code runs in an isolated, network-disabled container (`python:3.11-slim`, 128MB RAM cap, 0.5 CPU). Fallback to subprocess with static library blacklisting.
-- **MCTS Planning Layer**: Complex tasks route through Monte Carlo Tree Search for path planning before any execution begins — decompose → deliberate → search → verify.
+- **Automated Self-Correction Loop:** Friday and Edith engage in a direct critique-correction cycle. If Edith finds an issue, Friday revises the code using the feedback without requiring manual human intervention.
+- **Docker Sandboxing:** To safely execute generated code during testing, the runtime runs scripts in an isolated, network-disabled Docker container (`python:3.11-slim` with memory limits).
+- **Execution Safeguards:** Implemented an Infinite Loop Freeze Gateway that pauses the process and serializes the sprint state if the same execution error repeats consecutively, preventing infinite execution loops.
 
 ---
 
-## 👁️ Nunchi (눈치) Algorithm — Reading the Room
+## 🛠️ Technical Stack
 
-The differentiating layer of J.A.R.V.I.S. is the **Nunchi engine**: a social context modeling system named after the Korean concept of reading the atmosphere between the lines.
-
-Most AI systems respond to _what you say_. The Nunchi engine is designed to respond to _what the situation means_.
-
-### Implicit Feedback Loop (Unsupervised)
-
-The system infers context without requiring explicit user feedback:
-
-```
-User ignores joke → resumes work command immediately
-  → JARVIS logs: social_battery LOW, humor_weight ↓
-
-User sends message at 23:00 in short, dry sentences
-  → JARVIS infers: proactive_weight ↓, response_mode = concise_report
-```
-
-No "rate this response" prompts. No manual tuning. The system reads patterns.
-
-### Humor Weight Algorithm (향후 연구 방향)
-
-2026년 학과 게임잼 현장에서, HRI(인간-로봇 감성 상호작용) 연구를 진행 중이신 **박성준 학과장님**께 Nunchi 시스템의 확장 개념을 제안했습니다.
-
-```mermaid
-graph TD
-    A["Unconscious Physical Signals
-    (micro-expressions, involuntary eye contact,
-    throat movement — signals humans can't suppress)"] --> D["Emotional Weight Engine"]
-    B["Contextual Variables
-    (time, topic, conversation history)"] --> D
-    C["Nunchi Database
-    (learned behavioral patterns)"] --> D
-    D --> E{"Humor Weight Filter"}
-    E -->|High| F["Wit / Irony / Playful Response"]
-    E -->|Low| G["Direct / Serious / Concise Response"]
-```
-
-거짓말을 할 때의 의도적인 시선 교환, 감정 변화 시 입꼬리의 미세 표정(Micro-expressions) 등 인간이 통제하기 힘든 **무의식적 물리 신호(Sub-linguistic layer)**를 종합하여 에이전트의 응답 톤(농담, 진지함 등)을 결정하는 이 알고리즘은, 교수님으로부터 HRI 적용 가능성에 대한 매우 고무적인 평가를 받았습니다.
+- **Runtime:** Node.js (TypeScript) + Jarvis CLI
+- **Agent Integration:** Prompt-based agent state machine routing
+- **Sandbox Environment:** Docker API client for container management
+- **Development Tooling:** Obsidian for personal knowledge management and architecture planning
 
 ---
 
-## 🛠️ Technical Stack & Components
+## 💡 Future Directions: Social Context Modeling
 
-| Component              | Technology                                                 |
-| ---------------------- | ---------------------------------------------------------- |
-| Orchestration Runtime  | Node.js (TypeScript) + Jarvis CLI                          |
-| Agent Communication    | Oh-My-ClaudeCode (OMC) pipeline                            |
-| Code Execution Sandbox | Docker (`python:3.11-slim`)                                |
-| Memory System          | Autonomous long-term memory via structured note management |
-| Planning Layer         | MCTS (Monte Carlo Tree Search)                             |
-| UI Prototyping         | Figma → HTML/CSS Rainmeter skin                            |
+In addition to the core code execution pipeline, I am interested in exploring how AI agents can interact more naturally with humans. I have conceptualized a **Nunchi (눈치) Engine**—a theoretical model designed to adapt agent communication tones based on implicit contextual cues (such as dry/short messaging patterns or response latency).
 
-### 🚧 Planned Hardware Infrastructure
-
-- **Hardware**: AMD Ryzen 7 7600 + RTX 4060Ti 16GB ×2 (currently in assembly)
-
----
-
-## 📌 Design Philosophy
-
-> _"Discipline equals freedom. We do not guess; we test, we verify, and we execute."_
-
-J.A.R.V.I.S. is not a product. It's a research platform for exploring what it means to build an AI that genuinely understands human context — one that earns trust not by being agreeable, but by being correct.
-
-The long-term goal is not a smarter autocomplete. It's a system that knows when to joke, when to push back, when to be silent, and when to act without being asked.
+During the 2026 Department Game Jam, I had the opportunity to present a high-level abstraction of this context-weighting idea (incorporating HRI/non-verbal signals) to Department Head Prof. Seong-jun Park, discussing its theoretical application in human-robot interaction.

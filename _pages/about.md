@@ -45,21 +45,25 @@ Throughout high school, while most of my peers followed the standard curriculum,
 
 In **2024 (my sophomore year of high school)**, I participated in the **Korea Science & Technology Competition (한국과학기술경진대회)**. ChatGPT had just arrived and the world was celebrating. I was skeptical.
 
-I noticed LLMs were fluent but brittle — they could produce confident-sounding text while failing basic inferential reasoning. My paper proposed a **Critical Thinking Framework** to address this literacy gap. Working through the idea, I independently arrived at the intuition that an **adversarial training loop** (akin to GAN dynamics) would be necessary for genuine reasoning robustness — long before I had the vocabulary to call it RLHF.
+I noticed LLMs were fluent but brittle — they could produce confident-sounding text while failing basic inferential reasoning. My paper proposed a **Critical Thinking Framework** to address this literacy gap.
 
-I didn't win. I lacked the benchmarking methodology to prove what I suspected. But the problem I identified was real, and the direction I pointed toward is now mainstream.
+Along the way, I had an instinct: the model needed to be trained in an environment that pushed back — something that would force it to defend its own reasoning. I didn't have the technical ability to build that system. I didn't even have the vocabulary to name it precisely. But the core impulse — that the *environment* mattered as much as the model — stuck with me.
 
-> This experience taught me something: the gap between a good intuition and a publishable result is methodology — and that's exactly what I'm building now.
+I didn't win. I lacked the benchmarking methodology to prove what I suspected.
+
+> What I took from that experience: a clear instinct isn't enough. You need the tools to test it. That gap is what I'm closing now.
 
 ---
 
 ### 🎓 Teaching as Engineering: Building the Curriculum I Needed
 
-By my **junior year**, our school's programming club had dissolved. I founded **CodingLab (코딩랩)** from scratch.
+In my **sophomore year**, our school's programming club dissolved. I founded **CodingLab (코딩랩)** to fill the gap.
 
-Rather than running it the standard way, I designed a **deep learning theory curriculum** drawing from MIT 6.S191, *Hands-On Machine Learning*, and other sources — then delivered approximately one semester of lectures to club members myself. Designing that curriculum forced me to understand not just the math, but how to *communicate* it: which analogies landed, which abstractions confused, which sequences built intuition versus killed it.
+I designed a **deep learning theory curriculum** drawing from MIT 6.S191, _Hands-On Machine Learning_, and other materials I had been collecting — then delivered approximately one semester of lectures to club members.
 
-Teaching is engineering. A concept that can't be transmitted isn't fully understood.
+Honestly, I was still learning myself. I wasn't deep enough in the material to fully grasp everything I was teaching. But I worked hard to understand it well enough to present it coherently — and the process of preparing those lectures forced a level of discipline in my own learning that I wouldn't have reached otherwise.
+
+> Teaching revealed exactly where my understanding ended. That's a more useful signal than any test score.
 
 ---
 
@@ -69,11 +73,11 @@ I care less about which tool I use and more about whether the system I'm buildin
 
 Some examples of how I think:
 
-- **J.A.R.V.I.S. Architecture**: Rather than building a chatbot, I designed a multi-agent orchestration layer — Harley (PM), Friday (code generation), Edith (QA audit) — connected via a closed Tiki-Taka validation loop with MCTS-based planning, a Docker sandbox, and an infinite-loop freeze gateway. The system is built around the assumption that correctness matters more than speed.
+- **J.A.R.V.I.S. Architecture**: What started as a named-agent framework — Harley (PM), Friday (generator), Edith (QA) — with deliberate Tiki-Taka dynamics and romanticized roles has since grown far beyond that original structure. The current system is a production-grade orchestration engine: MCTS-based planning, a Docker sandbox with execution tracing, infinite-loop detection with state serialization, and a layered agent routing policy. The names and the romance are mostly gone. The architecture kept scaling.
 
-- **Game Jam (2026)**: With a 4-day window and a two-person dev team, I chose to build using an **AI-assisted no-code workflow (Harness Engineering)** — not because it was the easy path, but because it was the highest-leverage one given the constraints. The result: a working 2D side-scroller with a suspicion gauge system, stat-based NPC persuasion mechanics, and a branching multi-ending structure. **Perfect score in development.** Judges said I was a developer "to the bone" and that they were excited to see where I'd go from here.
+- **Game Jam (2026)**: With a 4-day window and a 3-person team (2 developers including myself), I chose to build using an **AI-assisted no-code workflow (Harness Engineering)** — not because it was the easy path, but because it was the highest-leverage one given the constraints. The result: a working 2D side-scroller with a suspicion gauge system, stat-based NPC persuasion mechanics, and a branching multi-ending structure. **Perfect score in development.** Judges said I was a developer "to the bone" and that they were excited to see where I'd go from here.
 
-- **Humor Weight Algorithm**: During the same week, I proposed a new interaction model to **Prof. Seong-jun Park (Department Head)**: rather than inferring emotional state from words alone, capture *unconscious physical signals* — micro-expressions, involuntary eye contact patterns, throat movements — and route them through a `Humor` weight filter to determine whether J.A.R.V.I.S. should respond with wit, irony, or directness. He asked if we could research it together.
+- **Humor Weight Algorithm**: During the same week, I proposed a research concept to **Prof. Seong-jun Park (Department Head)** — an interaction model *derived from* the Nunchi (눈치) concepts in J.A.R.V.I.S.: rather than inferring emotional state from words alone, capture *unconscious physical signals* — micro-expressions, involuntary eye contact patterns, throat movements — and route them through a `Humor` weight filter to decide whether a response should be direct, playful, or ironic. The concept came out of J.A.R.V.I.S., but what we'd be researching together is its application to human-robot interaction. He asked if we could research it together.
 
 ---
 

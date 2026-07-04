@@ -49,7 +49,7 @@ I noticed LLMs were fluent but brittle — they could produce confident-sounding
 
 Along the way, I had an instinct: the model needed to be trained in an environment that pushed back — something that would force it to defend its own reasoning. I didn't have the technical ability to build that system. I didn't even have the vocabulary to name it precisely. But the core impulse — that the *environment* mattered as much as the model — stuck with me.
 
-I didn't win. I lacked the benchmarking methodology to prove what I suspected.
+I received a participation award, but lacked the benchmarking methodology to prove what I suspected.
 
 > What I took from that experience: a clear instinct isn't enough. You need the tools to test it. That gap is what I'm closing now.
 

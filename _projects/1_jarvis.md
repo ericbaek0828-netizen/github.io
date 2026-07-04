@@ -10,7 +10,7 @@ related_publications: false
 
 ## 🧠 What Is J.A.R.V.I.S.?
 
-J.A.R.V.I.S. (Just A Rather Very Intelligent System) is my flagship independent research project — a **production-grade multi-agent orchestration system** designed to go beyond chatbots and act as a genuine autonomous engineering collaborator.
+J.A.R.V.I.S. (Just A Rather Very Intelligent System) is my flagship independent research project — a **conceptual architecture and prototype** for a multi-agent orchestration system designed to go beyond chatbots and act as a genuine autonomous engineering collaborator.
 
 The core thesis: most AI assistants are reactive. J.A.R.V.I.S. is designed to be **proactive, self-correcting, and socially aware** — capable of understanding not just what you say, but what you mean, what you feel, and what you haven't said yet.
 
@@ -93,21 +93,24 @@ graph TD
 
 The insight: humans don't just respond to words — they respond to the _sub-linguistic layer_. When someone lies, they often make deliberate eye contact. When someone suppresses an emotion, a micro-expression escapes at the corners of the mouth. An AI that can read this layer communicates at a fundamentally different depth.
 
-**Prof. Park proposed a formal research collaboration** on this interaction model.
+I shared this concept with Prof. Park during the Game Jam, resulting in an encouraging discussion regarding its potential application to human-robot interaction.
 
 ---
 
 ## 🛠️ Technical Stack & Components
 
-| Component              | Technology                                                    |
-| ---------------------- | ------------------------------------------------------------- |
-| Orchestration Runtime  | Node.js (TypeScript) + Jarvis CLI                             |
-| Agent Communication    | Oh-My-ClaudeCode (OMC) pipeline                               |
-| Code Execution Sandbox | Docker (`python:3.11-slim`)                                   |
-| Memory System          | Autonomous long-term memory via structured note management    |
-| Planning Layer         | MCTS (Monte Carlo Tree Search)                                |
-| UI Prototyping         | Figma → HTML/CSS Rainmeter skin                               |
-| Hardware Target        | AMD Ryzen 7600 + 2× RTX 4060Ti 16GB + 64GB DDR5 (in assembly) |
+| Component              | Technology                                                 |
+| ---------------------- | ---------------------------------------------------------- |
+| Orchestration Runtime  | Node.js (TypeScript) + Jarvis CLI                          |
+| Agent Communication    | Oh-My-ClaudeCode (OMC) pipeline                            |
+| Code Execution Sandbox | Docker (`python:3.11-slim`)                                |
+| Memory System          | Autonomous long-term memory via structured note management |
+| Planning Layer         | MCTS (Monte Carlo Tree Search)                             |
+| UI Prototyping         | Figma → HTML/CSS Rainmeter skin                            |
+
+### 🚧 Planned Hardware Infrastructure
+
+- **Hardware**: AMD Ryzen 7 7600 + RTX 4060Ti 16GB ×2 (currently in assembly)
 
 ---
 

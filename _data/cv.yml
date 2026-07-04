@@ -31,7 +31,7 @@ cv:
         start_date: 2023
         end_date: 2025
         highlights:
-          - "Founded CodingLab (코딩랩) — designed and taught a deep learning theory curriculum"
+          - "Re-founded CodingLab (코딩랩) — delivered a deep learning theory curriculum using teacher training materials"
           - "Information/CS: Rank 2 (consistently top performer across 3 years)"
           - "Programming (elective): A grade — implemented NLP tokenization algorithms and Llama 3.2 Q&A pipeline"
           - "AI & Physical Computing: Researched on-device AI chips, sLLM, and knowledge distillation to address LLM power consumption"
@@ -55,9 +55,9 @@ cv:
       - company: CodingLab (코딩랩)
         position: Lead Instructor & Re-founder
         location: Incheon Youngsun High School
-        start_date: 2025-03
-        end_date: 2025-12
-        summary: When the previous programming club dissolved, I stepped up to recreate the club as CodingLab. Designed a deep learning theory curriculum from MIT 6.S191 and Hands-On ML materials. Delivered ~1 semester of lectures to students with no prior ML background.
+        start_date: 2024-03
+        end_date: 2024-12
+        summary: When the previous programming club dissolved, I stepped up to recreate the club as CodingLab. Delivered a deep learning theory curriculum using teacher training materials and MIT 6.S191. Conducted ~1 semester of lectures for students with no prior ML background.
         highlights:
           - "Designed 7-week DL curriculum: perceptrons, backpropagation, CNNs, RNNs, Transformers, attention mechanisms"
           - "Created original lecture materials (80+ slides) with mathematical rigor — equations, diagrams, code examples"

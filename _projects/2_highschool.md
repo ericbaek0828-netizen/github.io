@@ -1,7 +1,7 @@
 ---
 layout: page
 title: "CodingLab & KSEF — High School Research & Teaching"
-description: Founded a programming club, designed a deep learning curriculum, and competed in Korea's national science & technology competition
+description: Re-founded a programming club, delivered a deep learning curriculum using teacher training materials, and competed in Korea's national science & technology competition
 img: assets/img/3.jpg
 importance: 3
 category: work
@@ -36,11 +36,11 @@ The gap between a correct intuition and a publishable result is **methodology an
 
 ---
 
-## 🏗️ CodingLab — Founding a Programming Club (2025)
+## 🏗️ CodingLab — Re-founding a Programming Club (2024)
 
 ### The Situation
 
-My school's existing programming club dissolved. Rather than waiting for a teacher to restart it, I proposed to the faculty that I would found and run **CodingLab (코딩랩)** myself.
+My school's existing programming club dissolved. Rather than waiting for a teacher to restart it, I proposed to the faculty that I would re-found and run **CodingLab (코딩랩)** myself.
 
 ### Curriculum Design
 
@@ -48,11 +48,11 @@ The challenge wasn't just knowing the material — it was figuring out _how to t
 
 I drew from:
 
-- **MIT 6.S191** (Introduction to Deep Learning)
+- Existing **Teacher Training Presentations (교원 연수 자료)**
+- **MIT 6.S191** (Introduction to Deep Learning) for supplementary reading
 - _Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow_
-- Additional papers and lectures I had accumulated independently
 
-I restructured these into a **deep learning theory curriculum** and delivered approximately **one semester of lectures** to club members, serving as both instructor and course designer.
+I utilized these materials to deliver a **deep learning theory curriculum**, conducting approximately **one semester of lectures** for club members.
 
 ### Key Insight
 

@@ -1,9 +1,9 @@
 ---
 layout: course
 title: "CodingLab: Deep Learning Theory"
-description: Founded a high school programming club and designed a deep learning theory curriculum for students with no prior ML background. Delivered approximately one semester of lectures.
+description: Re-founded a high school programming club and delivered a deep learning theory curriculum using teacher training materials for students with no prior ML background. Delivered approximately one semester of lectures.
 instructor: JeongBeom Baek (Eric)
-year: 2025
+year: 2024
 term: Spring–Summer
 location: High School, South Korea
 time: Weekly club sessions
@@ -47,19 +47,19 @@ schedule:
 
 ## Overview
 
-In 2025, after my high school's existing programming club dissolved, I founded **CodingLab (코딩랩)** to fill the gap. Rather than teaching basic coding, I designed a **deep learning theory curriculum** aimed at students with zero ML background.
+In 2024, after my high school's existing programming club dissolved, I re-founded **CodingLab (코딩랩)** to fill the gap. Rather than teaching basic coding, I utilized existing **teacher training materials** to deliver a **deep learning theory curriculum** aimed at students with zero ML background.
 
 ## Source Materials
 
 The curriculum drew from:
 
-- **MIT 6.S191** — Introduction to Deep Learning
+- **Teacher Training Presentations (교원 연수 자료)**
+- **MIT 6.S191** — Introduction to Deep Learning (for supplementary reading)
 - **Hands-On Machine Learning with Scikit-Learn, Keras & TensorFlow** by Aurélien Géron
-- Additional papers and online lectures I had independently accumulated
 
 ## Teaching Philosophy
 
-I restructured graduate-level material into digestible weekly sessions. The challenge was not just knowing the content, but figuring out how to transmit it — finding the right analogies, the right sequence, the right level of abstraction.
+I utilized pre-existing educational materials and broke them down into digestible weekly sessions. The challenge was not just knowing the content, but figuring out how to transmit it — finding the right analogies, the right sequence, the right level of abstraction.
 
 > Designing this curriculum made me a better engineer. If I couldn't explain a concept simply, I didn't fully understand it.
 

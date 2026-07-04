@@ -14,7 +14,7 @@ related_publications: false
 - **Theme**: Decay and Decline (부패와 쇠퇴)
 - **Platform**: PC (Steam target) / 2D side-scrolling adventure
 - **Role**: All-rounder (concept, AI-assisted no-code development, UI/UX design, final presentation)
-- **Result**: **Perfect score in development category**
+- **Result**: Highly positive feedback for development
 - **Reflection**: Strong on the engineering side; room to grow in the humanities/narrative depth
 
 ---
@@ -57,7 +57,7 @@ With only two developers on the team (a sophomore and myself as a freshman), I a
 - Dark, controlled future-city aesthetic to reinforce the oppressive atmosphere
 - Collision detection and smooth static motion optimized for side-scrolling view
 
-The AI collaboration allowed us to build a prototype within the tight timeline, earning a **perfect score in the development category**. Judges noted areas for deeper humanities exploration, but called me a "developer to the bone" and said they were excited to see where I'd go from here — especially as a freshman.
+The AI collaboration allowed us to build a prototype within the tight timeline, earning **highly positive feedback from the judges** regarding the technical execution and AI-assisted workflow. Judges noted areas for deeper humanities exploration, but were excited to see where I'd go from here.
 
 ---
 
@@ -87,9 +87,9 @@ graph TD
 
 The algorithm aggregates not just words and context, but **unconscious physical signals** — such as the reflex to make deliberate eye contact when lying, micro-expressions at the corners of the mouth during emotional shifts, or throat tremors — and routes them through a `Humor` weight filter to determine whether the agent should respond seriously, sarcastically, or playfully.
 
-**Result**: Prof. Park proposed a formal research collaboration on this interaction model for human-robot systems.
+**Result**: I shared this concept with Prof. Park during the Game Jam, resulting in an encouraging discussion regarding its potential application to human-robot interaction.
 
 ### 2. Prof. Hyeji Yang — TA Role & Curriculum Development
 
-- When assigned to summarize 10 research papers, I already had an archive of **40+ international papers** from my independent AI agent and RL research — allowing me to focus on the game jam.
-- Based on this demonstrated initiative, Prof. Yang officially recommended me for the university's **curriculum development initiative**.
+- When assigned to summarize 10 research papers for an academic course, I independently archived and analyzed over **40 international papers** on AI agents and RL.
+- Concurrently, I was nominated to participate in the university's **curriculum development initiative**.

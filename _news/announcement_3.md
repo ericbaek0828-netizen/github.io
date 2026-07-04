@@ -2,8 +2,8 @@
 layout: post
 title: 그동안 있었던 이벤트들(6/29 ~ 7/2)
 date: 2026-06-29
-inline: true
-related_posts: false
+inline: false
+related_posts: true
 ---
 **그동안 있었던 이벤트들(6/29 ~ 7/2)**
 1. 게임잼에 참가하여 올라운더(기획, AI 기반 노코드 개발, UI/UX, 발표)로 팀에 기여하며 '획일화된 사회에서 탈출하는 주인공'을 다룬 2D 횡스크롤 게임을 개발 완료했습니다. 개발 부문 만점 달성을 했습니다.

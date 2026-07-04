@@ -49,4 +49,4 @@ The diagram above illustrates the core cognitive and decision-making architectur
 4. Jarvis Wikipedia
 5. Dwarkesh Patel Youtube( Richard Sutton, Dario Amodei)
 6. [The Equation That Beat Wall Street](https://www.youtube.com/watch?v=A5w-dEgIU1M)
-etc.
+7. etc.

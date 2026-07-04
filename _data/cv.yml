@@ -13,7 +13,7 @@ cv:
         url: https://www.sungkyul.ac.kr/skukr/index.do
         area: Computer Engineering
         studyType: Bachelor's Student
-        start_date: 2026
+        start_date: 2026-01
         end_date: present
         score: "3.97 / 4.5"
         courses: "C Programming, Understanding and Application of AI, Basic Writing, Computer Literacy (Excel), College Mathematics, English Communication"
@@ -28,8 +28,8 @@ cv:
         location: Incheon, South Korea
         area: General Studies (Science Track)
         studyType: High School Diploma
-        start_date: 2023
-        end_date: 2025
+        start_date: 2023-01
+        end_date: 2025-01
         highlights:
           - "Re-founded CodingLab (코딩랩) — delivered a deep learning theory curriculum using teacher training materials"
           - "Information/CS: Rank 2 (consistently top performer across 3 years)"
@@ -78,7 +78,7 @@ cv:
       - title: "Improving LLM Language Understanding through the Application of Critical Thinking"
         authors:
           - JeongBeom Baek
-        date: 2024
+        date: 2024-01
         publisher: "22nd KSEF Science Project Competition (한국과학기술경진대회)"
         url: https://ericbaek0828-netizen.github.io/assets/pdf/KSEF_2024_Paper.pdf
         summary: >
@@ -149,7 +149,7 @@ cv:
         summary: >
           Conceptual framework and architecture in active planning for a multi-agent orchestration system,
           focusing on layered agent routing, state management, and the Nunchi social context engine.
-        start_date: 2026
+        start_date: 2026-01
         end_date: present
         highlights:
           - "Designing layered agent routing and automated quality gates for multi-agent workflows"

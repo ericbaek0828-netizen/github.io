@@ -69,6 +69,6 @@ This teaching experience directly informed my current role as a **Teaching Assis
 
 ## Lecture Materials (Downloads)
 
-* **Week 3 (Perceptrons)**: [Download PDF](/assets/pdf/Perceptron_Lecture.pdf)
-* **Week 5 (CNNs)**: [Download PDF](/assets/pdf/CNN_Lecture.pdf)
-* **Week 6 (RNNs)**: [Download PDF](/assets/pdf/RNN_Lecture.pdf)
+- **Week 3 (Perceptrons)**: [Download PDF](assets/pdf/Perceptron_Lecture.pdf)
+- **Week 5 (CNNs)**: [Download PDF](assets/pdf/CNN_Lecture.pdf)
+- **Week 6 (RNNs)**: [Download PDF](assets/pdf/RNN_Lecture.pdf)

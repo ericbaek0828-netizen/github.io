@@ -22,13 +22,13 @@ How do you coordinate multiple specialized AI agents to solve complex tasks with
 - **Infinite-loop detection** with state serialization for graceful failure handling
 - **Docker sandbox execution** for safe, isolated code runs
 
-The key insight: orchestration is not just about routing messages between agents. It's about designing the *decision architecture* — when to escalate, when to retry, when to stop.
+The key insight: orchestration is not just about routing messages between agents. It's about designing the _decision architecture_ — when to escalate, when to retry, when to stop.
 
 ---
 
 ### 👁️ Nunchi (눈치) — Social Context Modeling
 
-Named after the Korean concept of "reading the room," the Nunchi algorithm is J.A.R.V.I.S.'s social perception layer. Most AI responds to *what you say*. Nunchi is designed to respond to *what the situation means*.
+Named after the Korean concept of "reading the room," the Nunchi algorithm is J.A.R.V.I.S.'s social perception layer. Most AI responds to _what you say_. Nunchi is designed to respond to _what the situation means_.
 
 Current focus areas:
 

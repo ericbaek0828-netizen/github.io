@@ -33,7 +33,7 @@ Noticed that LLMs were linguistically powerful but epistemically fragile. Propos
 
 Didn't win. But the problem I identified was real, and the direction I pointed toward became mainstream.
 
-**Lesson learned**: The gap between a correct intuition and a publishable result is *methodology and measurement*.
+**Lesson learned**: The gap between a correct intuition and a publishable result is _methodology and measurement_.
 
 ---
 
@@ -63,7 +63,7 @@ Published the [J.A.R.V.I.S. architecture canvas](/news/announcement_2/) on this 
 
 ### 2026, June–July — Game Jam: High Commendation
 
-**Department Game Jam** (4 days, 3-person team). Built *Escape from Uniformity* — a 2D side-scrolling adventure with suspicion gauge, stat-based NPC persuasion, and multi-ending structure.
+**Department Game Jam** (4 days, 3-person team). Built _Escape from Uniformity_ — a 2D side-scrolling adventure with suspicion gauge, stat-based NPC persuasion, and multi-ending structure.
 
 Used **Harness Engineering** (AI-assisted no-code workflow) to overcome the 2-developer constraint. Received highly positive verbal feedback from judges for our development execution.
 

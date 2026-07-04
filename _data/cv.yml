@@ -1,27 +1,10 @@
 cv:
   name: JeongBeom Baek (백정범)
-  label: Undergraduate Research Assistant & Software Engineer
   email: ericbaek0828@gmail.com
   location: Incheon, South Korea
-  image: "prof_pic.jpg"
-  summary: >
-    Sungkyul University undergraduate (Computer Engineering), Research & Teaching Assistant,
-    and independent AI researcher. Building multi-agent orchestration systems (J.A.R.V.I.S.),
-    exploring reinforcement learning, and designing Personal Knowledge Management (PKM) systems.
-    Founded a high school deep learning club, published KSEF research on LLM reasoning,
-    and earned a perfect score in a university game jam — all driven by a fascination with
-    human-AI collaboration that started with AlphaGo in 2016.
-
   social_networks:
     - network: GitHub
       username: ericbaek0828-netizen
-
-  address:
-    street: 27, Cheyukgwan-ro, Bupyeong-gu
-    city: Incheon
-    region: Incheon
-    postalCode: "21340"
-    countryCode: KR
 
   sections:
     Education:
@@ -31,7 +14,7 @@ cv:
         area: Computer Engineering
         studyType: Bachelor's Student
         start_date: 2026
-        end_date: Present
+        end_date: present
         score: "3.97 / 4.5"
         courses: "C Programming, Understanding and Application of AI, Basic Writing, Computer Literacy (Excel), College Mathematics, English Communication"
         highlights:
@@ -62,7 +45,7 @@ cv:
         position: Undergraduate Student & Independent Researcher
         location: Anyang, South Korea
         start_date: 2026-03
-        end_date: Present
+        end_date: present
         summary: Concurrently pursuing studies and participating in departmental initiatives. Independently archived and analyzed over 40 AI agent papers for an academic course assignment.
         highlights:
           - "Exceeded academic assignment requirements by analyzing 40+ international papers on AI agents and RL"
@@ -97,7 +80,7 @@ cv:
           - JeongBeom Baek
         date: 2024
         publisher: "22nd KSEF Science Project Competition (한국과학기술경진대회)"
-        url: "/assets/pdf/KSEF_2024_Paper.pdf"
+        url: https://ericbaek0828-netizen.github.io/assets/pdf/KSEF_2024_Paper.pdf
         summary: >
           Proposed applying human critical thinking patterns to LLM inference — generating and
           verifying logical hypotheses before producing responses, rather than direct token prediction.
@@ -167,7 +150,7 @@ cv:
           Conceptual framework and architecture in active planning for a multi-agent orchestration system,
           focusing on layered agent routing, state management, and the Nunchi social context engine.
         start_date: 2026
-        end_date: Present
+        end_date: present
         highlights:
           - "Designing layered agent routing and automated quality gates for multi-agent workflows"
           - "Nunchi algorithm: humor/sarcasm weight filtering based on unconscious physical signals"

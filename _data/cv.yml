@@ -4,7 +4,13 @@ cv:
   email: ericbaek0828@gmail.com
   location: Incheon, South Korea
   image: "prof_pic.jpg"
-  summary: Sungkyul University undergraduate student, Research & Teaching Assistant, independent AI researcher, and software engineer. Passionate about architecting AI agents, reinforcement learning, and Personal Knowledge Management (PKM) systems.
+  summary: >
+    Sungkyul University undergraduate (Computer Engineering), Research & Teaching Assistant,
+    and independent AI researcher. Building multi-agent orchestration systems (J.A.R.V.I.S.),
+    exploring reinforcement learning, and designing Personal Knowledge Management (PKM) systems.
+    Founded a high school deep learning club, published KSEF research on LLM reasoning,
+    and earned a perfect score in a university game jam — all driven by a fascination with
+    human-AI collaboration that started with AlphaGo in 2016.
 
   social_networks:
     - network: GitHub
@@ -27,75 +33,162 @@ cv:
         start_date: 2026
         end_date: Present
         score: "3.97 / 4.5"
-        courses: "C Programming, Understanding and Application of AI, Basic Writing, Computer Literacy (Excel), College Mathematics, English Communication, Chapel Disciple Class, University Life and Career"
+        courses: "C Programming, Understanding and Application of AI, Basic Writing, Computer Literacy (Excel), College Mathematics, English Communication"
         highlights:
-          - "2026학년도 1학기 평점: 3.97 / 4.5 (취득학점 16학점)"
-          - "C 프로그래밍: A+ (98점)"
-          - "AI이해와 활용: A+ (98점)"
-          - "기초 글쓰기: A+ (95점)"
-          - "대학수학: B+ (87점)"
-          - "영어 커뮤니케이션: B+ (86점)"
-          - "컴활(엑셀): B+ (85점)"
-          - "채플 제자반 / 대학생활과 진로: Pass"
+          - "1st Semester GPA: 3.97 / 4.5 (16 credits)"
+          - "C Programming: A+ (98) | AI Understanding & Application: A+ (98)"
+          - "Basic Writing: A+ (95) | College Mathematics: B+ (87)"
+          - "Research & Teaching Assistant under Prof. Hyeji Yang"
+          - "Nominated for university curriculum development initiative"
+
+      - institution: Incheon Youngsun High School (인천영선고등학교)
+        location: Incheon, South Korea
+        area: General Studies (Science Track)
+        studyType: High School Diploma
+        start_date: 2023
+        end_date: 2025
+        highlights:
+          - "Founded CodingLab (코딩랩) — designed and taught a deep learning theory curriculum"
+          - "Information/CS: Rank 2 (consistently top performer across 3 years)"
+          - "Programming (elective): A grade — implemented NLP tokenization algorithms and Llama 3.2 Q&A pipeline"
+          - "AI & Physical Computing: Researched on-device AI chips, sLLM, and knowledge distillation to address LLM power consumption"
+          - "Mathematics & Statistics: Derived backpropagation equations via chain rule/partial derivatives and analyzed AI output probability distributions"
+          - "Social Issues: Authored a report on AI hallucinations, dependence risks, and the necessity of AI literacy"
+          - "Data Analysis: Utilized Orange3 for data mining and GeoGebra for complex mathematical visualizations"
+          - "KSEF 2024: Published research on improving LLM reasoning via critical thinking frameworks"
 
     Experience:
       - company: Sungkyul University
-        position: Undergraduate Research & Teaching Assistant
+        position: Undergraduate Student & Independent Researcher
         location: Anyang, South Korea
-        start_date: 2026
+        start_date: 2026-03
         end_date: Present
-        summary: 양혜지 교수님 연구실 조교 활동 및 학술 리서치 수행. 교내 교육과정 개발 관련 연구 프로젝트 참여 및 학술 자료 조사 담당.
+        summary: Concurrently pursuing studies and participating in departmental initiatives. Independently archived and analyzed over 40 AI agent papers for an academic course assignment.
         highlights:
-          - "AI 에이전트 및 학습 모델 고도화를 위한 40개 이상의 해외 학술 논문 데이터베이스 아카이빙 및 요약 분석 수행"
-          - "교내 교육과정 개발 및 혁신 사업 프로젝트 기획 참여"
+          - "Exceeded academic assignment requirements by analyzing 40+ international papers on AI agents and RL"
+          - "Nominated to participate in a university curriculum development project"
+          - "Discussed Nunchi (눈치) humor-weight algorithm concept with Prof. Seong-jun Park (Dept. Head), resulting in an encouraging exploration of human-robot interaction"
+
+      - company: CodingLab (코딩랩)
+        position: Lead Instructor & Re-founder
+        location: Incheon Youngsun High School
+        start_date: 2025-03
+        end_date: 2025-12
+        summary: When the previous programming club dissolved, I stepped up to recreate the club as CodingLab. Designed a deep learning theory curriculum from MIT 6.S191 and Hands-On ML materials. Delivered ~1 semester of lectures to students with no prior ML background.
+        highlights:
+          - "Designed 7-week DL curriculum: perceptrons, backpropagation, CNNs, RNNs, Transformers, attention mechanisms"
+          - "Created original lecture materials (80+ slides) with mathematical rigor — equations, diagrams, code examples"
+          - "Mentored students from zero coding knowledge to understanding neural network architectures"
+
+      - company: Incheon Youngsun High School
+        position: Coding Club Member & TA (코딩파티)
+        location: Incheon, South Korea
+        start_date: 2023-03
+        end_date: 2024-12
+        summary: Active member of the school coding club. Helped peers with Python programming, developed apps using App Inventor, and served as a technical resource for classmates.
+        highlights:
+          - "Built custom shoe and eco-friendly fashion coordination apps using App Inventor, incorporating recommendation algorithms"
+          - "Coded a classroom seat arrangement program used by the entire class to solve real-world scheduling issues"
+          - "Tutored peers in Python (loops, functions, game programs) and served as a technical resource for classmates"
+
+    Publications:
+      - title: "Improving LLM Language Understanding through the Application of Critical Thinking"
+        authors:
+          - JeongBeom Baek
+        date: 2024
+        publisher: "22nd KSEF Science Project Competition (한국과학기술경진대회)"
+        url: "/assets/pdf/KSEF_2024_Paper.pdf"
+        summary: >
+          Proposed applying human critical thinking patterns to LLM inference — generating and
+          verifying logical hypotheses before producing responses, rather than direct token prediction.
+          Fine-tuned Llama 3.2 3B with LoRA on a custom Korean dataset (merged-v2). The critical
+          thinking model scored 0.566 vs baseline 0.466 on language understanding, reasoning,
+          and requirement fulfillment metrics.
+        highlights:
+          - "Independently identified LLM reasoning fragility as a core problem — 2 years before it became mainstream"
+          - "Built custom Korean dataset (merged-v2) with 50% text analysis, 25% logical reasoning, 25% problem-solving"
+          - "Implemented hypothesis-generation pipeline: context → generate all logical hypotheses → verify → select most valid → respond"
+          - "Fine-tuned using Unsloth + LoRA (rank 16, alpha 16) with 4-bit quantization on Google Colab"
+          - "[Download Presentation](/assets/pdf/KSEF_2024_Presentation.pptx)"
 
     Awards:
-      - title: 2026 학과 게임잼 개발 부문 만점
+      - title: 2026 Department Game Jam — High Commendation
         authors:
-          - "성결대학교 학과 주관"
+          - "Sungkyul University, Computer Engineering Dept."
         date: 2026-07-01
-        awarder: 성결대학교
-        summary: "부패와 쇠퇴를 주제로 한 학과 자체 게임잼에서 '획일화 속 탈출' 2D 횡스크롤 게임을 개발하여 개발성 부문 만점(최고점)을 달성함."
+        awarder: Sungkyul University
+        summary: >
+          Built 'Escape from Uniformity' — a 2D side-scrolling adventure with suspicion gauge,
+          stat-based NPC persuasion, and multi-ending structure. Used Harness Engineering
+          (AI-assisted no-code workflow) as a freshman with a 3-person team over 4 days. Received highly positive verbal feedback for development execution.
 
     Skills:
-      - name: Software Engineering & AI Agents
+      - name: Programming & Engineering
         level: Intermediate
         icon: fa-solid fa-code
-        keywords: "AI Agent Orchestration (J.A.R.V.I.S. OMC), Harness Engineering, No-Code Development, C Programming, Python, Git"
+        keywords: "Python, C (A+), JavaScript/TypeScript, App Inventor, Git, Docker, Jekyll"
 
-      - name: Academic Research
+      - name: AI & Machine Learning
+        level: Intermediate
+        icon: fa-solid fa-robot
+        keywords: "Multi-Agent Orchestration (J.A.R.V.I.S.), Deep Learning Theory (CNN/RNN/Transformer), LoRA Fine-Tuning, Prompt Engineering, Harness Engineering"
+
+      - name: Research & Teaching
         level: Intermediate
         icon: fa-solid fa-graduation-cap
-        keywords: "Literature Archiving, PKM (Personal Knowledge Management), Paper Review"
+        keywords: "Academic Paper Analysis, Curriculum Design, PKM (Obsidian), Technical Presentation"
+
+      - name: Tools & Platforms
+        level: Intermediate
+        icon: fa-solid fa-wrench
+        keywords: "Obsidian, Figma, GeoGebra, Orange3 Data Mining, Google Colab, Hugging Face"
 
     Languages:
       - name: Korean
         summary: "Native speaker"
 
       - name: English
-        summary: "Professional Communication"
+        summary: "Professional communication"
 
     Interests:
       - name: AI & Systems
         icon: fa-solid fa-robot
-        keywords: "Multi-Agent System, Reinforcement Learning, Human-Robot Emotional Interaction"
+        keywords: "Multi-Agent Orchestration, Reinforcement Learning, Human-Robot Emotional Interaction, On-Device AI"
       - name: Knowledge Management
         icon: fa-solid fa-brain
-        keywords: "Personal Knowledge Management (PKM), Obsidian, Auto-linking Knowledge Graph"
+        keywords: "Personal Knowledge Management (PKM), Obsidian, Auto-linking Knowledge Graphs"
+      - name: Cognitive Science
+        icon: fa-solid fa-lightbulb
+        keywords: "Nunchi (눈치) Algorithm, Humor Weight Filtering, Sub-linguistic Signal Processing"
 
     Projects:
-      - name: J.A.R.V.I.S. (OMC)
-        summary: MCTS(Monte Carlo Tree Search), 의사결정 파이프라인, 그리고 Harley PM/Friday Gen/Edith QA 등의 멀티 에이전트 오케스트레이션 레이어를 기반으로 작동하는 지능형 비서 시스템.
+      - name: J.A.R.V.I.S.
+        summary: >
+          Conceptual framework and architecture in active planning for a multi-agent orchestration system,
+          focusing on layered agent routing, state management, and the Nunchi social context engine.
         start_date: 2026
         end_date: Present
         highlights:
-          - "Friday(개발)와 Edith(QA)의 Closed-loop 피드백을 기반으로 하는 단일 루프 스프린트(Tiki-Taka) 구현"
-          - "무의식적 신호 및 눈치 알고리즘을 융합한 유머 가중치 인터랙션 모델 설계"
+          - "Designing layered agent routing and automated quality gates for multi-agent workflows"
+          - "Nunchi algorithm: humor/sarcasm weight filtering based on unconscious physical signals"
+          - "Currently focusing on robust architectural planning and component design"
 
       - name: Escape from Uniformity (획일화 속 탈출)
-        summary: 2026 학과 게임잼 출품작. 획일화되고 표준화되는 사회의 병폐를 부패와 쇠퇴로 재해석하여, 개성을 잃지 않고 공존을 도모하는 2D 횡스크롤 어드벤처 게임.
+        summary: >
+          2026 Department Game Jam entry. A 2D side-scrolling adventure satirizing conformist society,
+          with suspicion gauge, stat-based NPC persuasion, and multi-ending narrative structure.
         start_date: 2026-06-29
         end_date: 2026-07-02
         highlights:
-          - "AI 코딩 어시스턴트와의 노코드 협업 방식을 도입하여 단기간 내 고성능 게임 메커니즘 구축"
-          - "의심도 게이지 시스템, 스탯 기반 대화 설득 및 스토리 분기 엔딩 구현"
+          - "Harness Engineering workflow — AI-assisted no-code development as a freshman"
+          - "Perfect score in development category; judges called me 'a developer to the bone'"
+
+      - name: Critical Thinking LLM (KSEF 2024)
+        summary: >
+          Research project applying human critical thinking patterns to LLM inference.
+          Fine-tuned Llama 3.2 3B to generate and verify hypotheses before responding.
+        start_date: 2024-06
+        end_date: 2024-11
+        highlights:
+          - "Custom Korean dataset (merged-v2) published on Hugging Face"
+          - "21% improvement in language understanding score over baseline Llama 3.2"

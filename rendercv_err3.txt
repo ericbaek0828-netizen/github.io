@@ -1,0 +1,148 @@
++- Your CV is ready ----------------------------------------------------------+
+| +--------------------- Traceback (most recent call last) ---------------------+
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rendercv\cli\ |
+| error_handler.py:38 in wrapper                                              |
+|                                                                             |
+|   35     @functools.wraps(function)                                         |
+|   36     def wrapper(*args: P.args, **kwargs: P.kwargs) -> None:            |
+|   37         try:                                                           |
+| > 38             return function(*args, **kwargs)                           |
+|   39         except RenderCVUserError as e:                                 |
+|   40             if e.message:                                              |
+|   41                 print(                                                 |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rendercv\cli\ |
+| render_command\render_command.py:231 in cli_command_render                  |
+|                                                                             |
+|   228         "overrides":                                                  |
+|       parse_override_arguments(extra_data_model_override_arguments),        |
+|   229     }                                                                 |
+|   230                                                                       |
+| > 231     with ProgressPanel(quiet=quiet) as progress_panel:                |
+|   232         if watch:                                                     |
+|   233             run_function_if_files_change(                             |
+|   234                 list(resolved_files.values()),                        |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\live.py: |
+| 193 in __exit__                                                             |
+|                                                                             |
+|   190         exc_val: Optional[BaseException],                             |
+|   191         exc_tb: Optional[TracebackType],                              |
+|   192     ) -> None:                                                        |
+| > 193         self.stop()                                                   |
+|   194                                                                       |
+|   195     def _enable_redirect_io(self) -> None:                            |
+|   196         """Enable redirecting of stdout / stderr."""                  |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\live.py: |
+| 162 in stop                                                                 |
+|                                                                             |
+|   159                 self._refresh_thread = None                           |
+|   160             # allow it to fully render on the last even if overflow   |
+|   161             self.vertical_overflow = "visible"                        |
+| > 162             with self.console:                                        |
+|   163                 try:                                                  |
+|   164                     if not self._alt_screen and not                   |
+|       self.console.is_jupyter:                                              |
+|   165                         self.refresh()                                |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\console. |
+| py:864 in __exit__                                                          |
+|                                                                             |
+|    861                                                                      |
+|    862     def __exit__(self, exc_type: Any, exc_value: Any, traceback:     |
+|        Any) -> None:                                                        |
+|    863         """Exit buffer context."""                                   |
+| >  864         self._exit_buffer()                                          |
+|    865                                                                      |
+|    866     def begin_capture(self) -> None:                                 |
+|    867         """Begin capturing console output. Call :meth:`end_capture`  |
+|        to exit capture mode and return output."""                           |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\console. |
+| py:820 in _exit_buffer                                                      |
+|                                                                             |
+|    817     def _exit_buffer(self) -> None:                                  |
+|    818         """Leave buffer context, and render content if required."""  |
+|    819         self._buffer_index -= 1                                      |
+| >  820         self._check_buffer()                                         |
+|    821                                                                      |
+|    822     def set_live(self, live: "Live") -> bool:                        |
+|    823         """Set Live instance. Used by Live context manager (no need  |
+|        to call directly).                                                   |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\console. |
+| py:2055 in _check_buffer                                                    |
+|                                                                             |
+|   2052             return                                                   |
+|   2053                                                                      |
+|   2054         try:                                                         |
+| > 2055             self._write_buffer()                                     |
+|   2056         except BrokenPipeError:                                      |
+|   2057             self.on_broken_pipe()                                    |
+|   2058                                                                      |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\console. |
+| py:2091 in _write_buffer                                                    |
+|                                                                             |
+|   2088                             if self.no_color and self._color_system: |
+|   2089                                 buffer =                             |
+|        list(Segment.remove_color(buffer))                                   |
+|   2090                                                                      |
+| > 2091                             legacy_windows_render(buffer,            |
+|        LegacyWindowsTerm(self.file))                                        |
+|   2092                         else:                                        |
+|   2093                             # Either a non-std stream on legacy      |
+|        Windows, or modern Windows.                                          |
+|   2094                             text =                                   |
+|        self._render_buffer(self._buffer[:])                                 |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\_windows |
+| _renderer.py:17 in legacy_windows_render                                    |
+|                                                                             |
+|   14     for text, style, control in buffer:                                |
+|   15         if not control:                                                |
+|   16             if style:                                                  |
+| > 17                 term.write_styled(text, style)                         |
+|   18             else:                                                      |
+|   19                 term.write_text(text)                                  |
+|   20         else:                                                          |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\_win32_c |
+| onsole.py:441 in write_styled                                               |
+|                                                                             |
+|   438         SetConsoleTextAttribute(                                      |
+|   439             self._handle, attributes=ctypes.c_ushort(fore | (back <<  |
+|       4))                                                                   |
+|   440         )                                                             |
+| > 441         self.write_text(text)                                         |
+|   442         SetConsoleTextAttribute(self._handle,                         |
+|       attributes=self._default_text)                                        |
+|   443                                                                       |
+|   444     def move_cursor_to(self, new_position: WindowsCoordinates) ->     |
+|       None:                                                                 |
+|                                                                             |
+| C:\Users\ericb\AppData\Roaming\Python\Python314\site-packages\rich\_win32_c |
+| onsole.py:402 in write_text                                                 |
+|                                                                             |
+|   399         Args:                                                         |
+|   400             text (str): The text to write to the console              |
+|   401         """                                                           |
+| > 402         self.write(text)                                              |
+|   403         self.flush()                                                  |
+|   404                                                                       |
+|   405     def write_styled(self, text: str, style: Style) -> None:          |
+|                                                                             |
+| C:\Python314\Lib\encodings\cp1252.py:19 in encode                           |
+|                                                                             |
+|    16                                                                       |
+|    17 class IncrementalEncoder(codecs.IncrementalEncoder):                  |
+|    18     def encode(self, input, final=False):                             |
+| >  19         return                                                        |
+|       codecs.charmap_encode(input,self.errors,encoding_table)[0]            |
+|    20                                                                       |
+|    21 class IncrementalDecoder(codecs.IncrementalDecoder):                  |
+|    22     def decode(self, input, final=False):                             |
++-----------------------------------------------------------------------------+
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2713' in position
+0: character maps to <undefined>

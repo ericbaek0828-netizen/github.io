@@ -57,7 +57,7 @@ I received a participation award, but lacked the benchmarking methodology to pro
 
 ### 🎓 Teaching as Engineering: Building the Curriculum I Needed
 
-In my **sophomore year**, when our school's existing programming club dissolved, I stepped up to recreate and found **CodingLab (코딩랩)** to ensure the continuity of our community.
+In my **sophomore year**, I stepped up to lead our school's existing programming club, evolving it into **CodingLab (코딩랩)** to ensure the continuity of our community and establish a more structured curriculum.
 
 I designed a **deep learning theory curriculum** drawing from MIT 6.S191, _Hands-On Machine Learning_, and other materials I had been collecting — then delivered approximately one semester of lectures to club members.
 
@@ -73,7 +73,7 @@ I have a highly experimental, hyper-focused learning style. I view my natural sp
 
 Some examples of how I think:
 
-- **J.A.R.V.I.S. Architecture**: What started as a conceptual named-agent framework — Harley (PM), Friday (generator), Edith (QA) — is evolving into a core architecture currently in active planning and development. I am designing a **multi-agent orchestration system** integrating **MCTS-based planning algorithms** and **Docker container sandboxing** for secure, robust state management. I care deeply about the architectural design, carefully planning the core structure before rushing to deployment.
+- **J.A.R.V.I.S. Architecture**: What started as a conceptual named-agent framework — Harley (PM), Friday (generator), Edith (QA) — is now a **conceptual architecture and prototype** in active development. I am designing a **multi-agent orchestration system** integrating **MCTS-based planning algorithms** and **Docker container sandboxing** for secure, robust state management. I care deeply about the architectural design, carefully planning the core structure before rushing to deployment.
 
 - **Game Jam (2026)**: With a 4-day window and a 3-person team (2 developers including myself), I chose to build using an **AI-assisted no-code workflow (Harness Engineering)** — not because it was the easy path, but because it was the highest-leverage one given the constraints. The result: a working 2D side-scroller with a suspicion gauge system, stat-based NPC persuasion mechanics, and a branching multi-ending structure. Our execution received highly positive verbal feedback from the development judges, affirming my technical approach.
 

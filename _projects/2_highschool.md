@@ -28,7 +28,7 @@ I wrote a paper proposing a **Critical Thinking Framework** for LLMs — a struc
 
 While developing the idea, I independently arrived at the intuition that an **adversarial training loop** would be necessary: a system where one model generates hypotheses and another challenges them, iterating until a response could survive critique. This is, in essence, what GAN-based training does — and what RLHF achieves in modern alignment research.
 
-> I didn't have the benchmarking methodology to prove it. I won a participation award. But the problem I identified was real and the direction I pointed toward became mainstream.
+> I didn't have the benchmarking methodology to prove it, but the problem I identified was real and the direction I pointed toward became mainstream.
 
 ### What I Learned
 
@@ -40,7 +40,7 @@ The gap between a correct intuition and a publishable result is **methodology an
 
 ### The Situation
 
-My school's existing programming club dissolved. Rather than waiting for a teacher to restart it, I proposed to the faculty that I would re-found and run **CodingLab (코딩랩)** myself.
+I stepped up to lead our school's existing programming club. Recognizing the need for deeper technical engagement, I proposed to the faculty that we evolve it into **CodingLab (코딩랩)** with a more structured curriculum.
 
 ### Curriculum Design
 

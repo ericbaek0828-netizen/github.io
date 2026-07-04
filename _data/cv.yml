@@ -88,8 +88,8 @@ cv:
           thinking model scored 0.566 vs baseline 0.466 on language understanding, reasoning,
           and requirement fulfillment metrics.
         highlights:
-          - "Independently identified LLM reasoning fragility as a core problem — 2 years before it became mainstream"
-          - "Built custom Korean dataset (merged-v2) with 50% text analysis, 25% logical reasoning, 25% problem-solving"
+          - "Custom Korean dataset (merged-v2) published on Hugging Face"
+          - "21% improvement in language understanding score over baseline Llama 3.2"
           - "Implemented hypothesis-generation pipeline: context → generate all logical hypotheses → verify → select most valid → respond"
           - "Fine-tuned using Unsloth + LoRA (rank 16, alpha 16) with 4-bit quantization on Google Colab"
           - "[Download Presentation](/assets/pdf/KSEF_2024_Presentation.pptx)"

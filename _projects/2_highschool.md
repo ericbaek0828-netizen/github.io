@@ -14,25 +14,23 @@ Before university, I ran two parallel tracks: **independent research** and **pee
 
 ---
 
-## 📝 KSEF — Korea Science & Technology Competition (2024)
+## 📝 KSEF — 제22회 한국과학기술경진대회 (2024)
 
-### The Problem I Noticed
+### 문제 정의 (The Problem)
 
-In early 2024, ChatGPT had just arrived and the world was celebrating. I was skeptical.
+2024년, ChatGPT의 등장으로 전 세계가 열광하던 시기, 저는 지역 모델(Llama 등)과 온디바이스 AI를 실험하며 LLM의 한계에 주목했습니다. 모델은 유창하고 자신감 있게 텍스트를 생성했지만, 기본적인 추론 능력과 사실 검증에서는 취약했습니다. 즉, **언어적 능력(Fluency)은 뛰어나지만 논리적 검증(Epistemic verification) 능력은 부족**했습니다.
 
-The model could produce fluent, confident-sounding text while failing basic inferential reasoning. It was **linguistically powerful but epistemically fragile** — it had no reliable way to evaluate the truth of what it was saying.
+### 연구 및 구현 (Research & Implementation)
 
-### The Proposal
+단순한 지적을 넘어, 인간의 비판적 사고(Critical Thinking) 패턴을 LLM의 추론 과정에 적용하는 연구를 진행했습니다.
 
-I wrote a paper proposing a **Critical Thinking Framework** for LLMs — a structured scaffolding layer to force multi-perspective reasoning before committing to a response.
+- **가설 생성 파이프라인**: 토큰을 즉시 예측하는 대신, `컨텍스트 분석 → 가능한 논리적 가설 모두 생성 → 각 가설 검증 → 가장 타당한 가설 선택 → 최종 응답 생성`의 파이프라인을 설계했습니다.
+- **데이터셋 및 파인튜닝**: 텍스트 분석(50%), 논리적 추론(25%), 문제 해결(25%)로 구성된 **독자적인 한국어 데이터셋(merged-v2)**을 구축하고 Hugging Face에 공개했습니다. 이를 바탕으로 Google Colab 환경에서 Unsloth와 LoRA(rank 16, alpha 16, 4-bit 양자화)를 활용해 **Llama 3.2 3B 모델을 파인튜닝**했습니다.
+- **결과**: 비판적 사고가 적용된 모델은 언어 이해, 추론, 요구사항 충족 지표에서 베이스라인 모델(0.466) 대비 **21% 향상된 0.566의 점수를 기록**했습니다.
 
-While developing the idea, I independently arrived at the intuition that an **adversarial training loop** would be necessary: a system where one model generates hypotheses and another challenges them, iterating until a response could survive critique. This is, in essence, what GAN-based training does — and what RLHF achieves in modern alignment research.
+### 성과 및 한계 (What I Learned)
 
-> I didn't have the benchmarking methodology to prove it, but the problem I identified was real and the direction I pointed toward became mainstream.
-
-### What I Learned
-
-The gap between a correct intuition and a publishable result is **methodology and measurement**. This experience is why I now treat experimental design as a first-class engineering concern in J.A.R.V.I.S.
+본 연구로 장려상을 수상하며, 직관적인 아이디어를 학술적 가치로 입증하기 위해서는 **엄밀한 수학적 벤치마킹과 방법론**이 필수적임을 깊이 깨달았습니다. 당시에는 이를 증명할 방법론적 지식이 부족했으나, 이 경험은 현재 J.A.R.V.I.S. 프로젝트에서 실험 설계와 검증(QA)을 최우선 엔지니어링 과제로 삼는 강력한 동기가 되었습니다.
 
 ---
 

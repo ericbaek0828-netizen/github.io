@@ -73,9 +73,9 @@ User sends message at 23:00 in short, dry sentences
 
 No "rate this response" prompts. No manual tuning. The system reads patterns.
 
-### Humor Weight Algorithm (Proposed Research Direction)
+### Humor Weight Algorithm (향후 연구 방향)
 
-During the 2026 Department Game Jam, I proposed an extension of the Nunchi system to **Prof. Seong-jun Park (Department Head)**, who is researching human-robot emotional interaction:
+2026년 학과 게임잼 현장에서, HRI(인간-로봇 감성 상호작용) 연구를 진행 중이신 **박성준 학과장님**께 Nunchi 시스템의 확장 개념을 제안했습니다.
 
 ```mermaid
 graph TD
@@ -91,9 +91,7 @@ graph TD
     E -->|Low| G["Direct / Serious / Concise Response"]
 ```
 
-The insight: humans don't just respond to words — they respond to the _sub-linguistic layer_. When someone lies, they often make deliberate eye contact. When someone suppresses an emotion, a micro-expression escapes at the corners of the mouth. An AI that can read this layer communicates at a fundamentally different depth.
-
-I shared this concept with Prof. Park during the Game Jam, resulting in an encouraging discussion regarding its potential application to human-robot interaction.
+거짓말을 할 때의 의도적인 시선 교환, 감정 변화 시 입꼬리의 미세 표정(Micro-expressions) 등 인간이 통제하기 힘든 **무의식적 물리 신호(Sub-linguistic layer)**를 종합하여 에이전트의 응답 톤(농담, 진지함 등)을 결정하는 이 알고리즘은, 교수님으로부터 HRI 적용 가능성에 대한 매우 고무적인 평가를 받았습니다.
 
 ---
 

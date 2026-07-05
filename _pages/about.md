@@ -32,6 +32,20 @@ I am passionate about software engineering, artificial intelligence, and systems
 
 ---
 
+## 🛠️ Projects & Research
+
+### [J.A.R.V.I.S. — Multi-Agent Orchestration System](/projects/1_jarvis/)
+An independent project designing a multi-agent orchestration architecture (Harley as PM, Friday as Code Generator, and Edith as QA Auditor) with Docker-based execution sandboxing.
+
+### [Escape from Uniformity (획일화 속 탈출)](/projects/10_game_jam/)
+A 2D side-scrolling adventure game built for the **2026 Department Game Jam** over 4 days. Implemented a suspicion gauge system and stat-based dialogue mechanics, earning high marks for development execution.
+
+### [KSEF & CodingLab — High School AI Projects](/projects/2_highschool/)
+- **KSEF 2024:** Research on applying human-like hypothesis generation and verification pipelines to suppress LLM hallucinations, fine-tuning LLaMA 3.2 3B.
+- **CodingLab:** Founded the programming club and taught a semester of deep learning theory (Perceptrons, CNNs, RNNs) using slides based on MIT 6.S191.
+
+---
+
 ## 🎓 Education & Academic Activities
 
 - **Sungkyul University** (2026 - Present)
@@ -44,20 +58,6 @@ I am passionate about software engineering, artificial intelligence, and systems
   - Re-founded and led **CodingLab (코딩랩)**, a student programming club, delivering introductory lectures on deep learning theory.
   - Academic Excellence in Information/Computer Science (Ranked 2nd).
   - Selected for the 22nd Korea Science & Engineering Fair (KSEF 2024).
-
----
-
-## 🛠️ Projects & Research
-
-### [J.A.R.V.I.S. — Multi-Agent Orchestration System](/projects/1_jarvis/)
-An independent project designing a multi-agent orchestration architecture (Harley as PM, Friday as Code Generator, and Edith as QA Auditor) with Docker-based execution sandboxing.
-
-### [Escape from Uniformity (획일화 속 탈출)](/projects/10_game_jam/)
-A 2D side-scrolling adventure game built for the **2026 Department Game Jam** over 4 days. Implemented a suspicion gauge system and stat-based dialogue mechanics, earning high marks for development execution.
-
-### [KSEF & CodingLab — High School AI Projects](/projects/2_highschool/)
-- **KSEF 2024:** Research on applying human-like hypothesis generation and verification pipelines to suppress LLM hallucinations, fine-tuning LLaMA 3.2 3B.
-- **CodingLab:** Founded the programming club and taught a semester of deep learning theory (Perceptrons, CNNs, RNNs) using slides based on MIT 6.S191.
 
 ---
 

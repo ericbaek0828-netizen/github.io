@@ -42,7 +42,7 @@ A 2D side-scrolling adventure game built for the **2026 Department Game Jam** ov
 
 ### [KSEF & CodingLab — High School AI Projects](/projects/2_highschool/)
 - **KSEF 2024:** Research on applying human-like hypothesis generation and verification pipelines to suppress LLM hallucinations, fine-tuning LLaMA 3.2 3B.
-- **CodingLab:** Founded the programming club and taught a semester of deep learning theory (Perceptrons, CNNs, RNNs) using slides based on MIT 6.S191.
+- **CodingLab:** Re-founded the programming club and taught a semester of deep learning theory (Perceptrons, CNNs, RNNs) using slides based on MIT 6.S191.
 
 ---
 

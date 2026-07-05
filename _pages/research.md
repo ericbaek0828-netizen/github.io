@@ -15,11 +15,10 @@ My work sits at the intersection of **multi-agent AI systems** and **human-AI in
 
 ### 🤖 Multi-Agent Orchestration
 
-How do you coordinate multiple specialized AI agents to solve complex tasks with high correctness? My primary vehicle for this question is [**J.A.R.V.I.S.**](/projects/1_jarvis/), which implements:
+How do you coordinate multiple specialized AI agents to solve complex tasks with high correctness? My primary vehicle for exploring this question is [**J.A.R.V.I.S.**](/projects/1_jarvis/), an architecture prototype focusing on:
 
-- **MCTS-based planning** for task decomposition before execution
-- **Tiki-Taka loops** (Friday ↔ Edith) for adversarial code generation and critique
-- **Infinite-loop detection** with state serialization for graceful failure handling
+- **Prompt-based agent state machine routing** for task orchestration
+- **Adversarial QA loops** (Friday ↔ Edith) for code generation and critique
 - **Docker sandbox execution** for safe, isolated code runs
 
 The key insight: orchestration is not just about routing messages between agents. It's about designing the _decision architecture_ — when to escalate, when to retry, when to stop.
@@ -36,7 +35,7 @@ Current focus areas:
 - **Humor weight filtering**: Deciding response tone (serious, playful, ironic) based on aggregated social signals
 - **Sub-linguistic signal processing**: Micro-expressions, involuntary eye contact patterns, and other signals humans can't consciously suppress
 
-This is an active research direction with **Prof. Seong-jun Park** (Department Head, Sungkyul University), who has proposed a formal collaboration on applying this model to human-robot interaction.
+I have discussed high-level ideas regarding this direction with **Prof. Seong-jun Park** (Sungkyul University), exploring its potential application to human-robot interaction in the future.
 
 ---
 

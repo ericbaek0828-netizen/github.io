@@ -24,8 +24,8 @@ nav_order: 4
 
 | Area                               | Details                                                               |
 | ---------------------------------- | --------------------------------------------------------------------- |
-| **Multi-Agent Orchestration**      | J.A.R.V.I.S. OMC pipeline, agent routing, Tiki-Taka loops             |
-| **MCTS (Monte Carlo Tree Search)** | Task decomposition and path planning in J.A.R.V.I.S.                  |
+| **Multi-Agent Orchestration**      | Designing agent routing and adversarial critique loops (J.A.R.V.I.S. prototype)       |
+| **Algorithm Design**               | Exploring decision-making frameworks for agent task decomposition                     |
 | **Deep Learning Theory**           | CNNs, RNNs, Transformers — studied independently, taught at CodingLab |
 | **Reinforcement Learning**         | Active study track; exploring applications beyond games               |
 | **Prompt Engineering**             | Harness Engineering workflow for AI-assisted development              |
@@ -49,8 +49,8 @@ nav_order: 4
 | Practice                    | How I Apply It                                                                             |
 | --------------------------- | ------------------------------------------------------------------------------------------ |
 | **Harness Engineering**     | AI-assisted no-code development workflow — human defines direction, AI handles scaffolding |
-| **Adversarial QA Loops**    | Friday generates, Edith critiques — automated quality gates before shipping                |
-| **Sandbox-First Execution** | All generated code runs in isolated containers before integration                          |
+| **Adversarial QA Design**   | Prototyping automated quality gates with generator/auditor agent pairs                     |
+| **Sandbox-First Execution** | Experimenting with isolated container execution for generated code                         |
 | **Documentation-Driven**    | Research notes, architecture docs, and structured knowledge management                     |
 
 ---
@@ -67,6 +67,6 @@ nav_order: 4
 ### Currently Learning
 
 - Advanced reinforcement learning (reward shaping, multi-objective optimization)
-- Human-robot emotional interaction (research collaboration with Prof. Park)
+- Human-robot emotional interaction (exploring high-level concepts with Prof. Park)
 - Academic writing and research methodology
 - Systems design at scale

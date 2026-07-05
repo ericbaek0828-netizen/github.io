@@ -38,7 +38,7 @@ I am passionate about software engineering, artificial intelligence, and systems
   - B.S. in Computer Engineering (GPA: 3.97 / 4.5)
   - Key Courses: C Programming (A+), Understanding and Application of AI (A+), College Mathematics (B+)
   - Research & Teaching Assistant under Prof. Hyeji Yang
-  - Nominated for the university curriculum development project
+  - Recommended by Prof. Hyeji Yang for the university curriculum development project
 
 - **Incheon Youngsun High School** (2023 - 2025)
   - Re-founded and led **CodingLab (코딩랩)**, a student programming club, delivering introductory lectures on deep learning theory.

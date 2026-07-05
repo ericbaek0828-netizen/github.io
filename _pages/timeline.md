@@ -49,7 +49,7 @@ Teaching revealed exactly where my understanding ended — a more useful signal 
 
 Enrolled at **Sungkyul University**, Computer Engineering. First semester GPA: **3.97 / 4.5**.
 
-Immediately began working as **Research & Teaching Assistant** under Prof. Hyeji Yang. Nominated for the university's curriculum development initiative.
+Immediately began working as **Research & Teaching Assistant** under Prof. Hyeji Yang. Recommended by Prof. Yang for the university's curriculum development initiative.
 
 ---
 

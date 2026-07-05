@@ -7,8 +7,50 @@ tmp_site="${tmp_dir}/site"
 
 cleanup() {
   rm -rf "${tmp_dir}"
+  rm -f "_posts/2018-12-22-distill.md"
 }
 trap cleanup EXIT
+
+# Re-create the distill post temporarily for testing since it was deleted from the main portfolio content
+cat >"_posts/2018-12-22-distill.md" <<'EOF'
+---
+layout: distill
+title: a distill-style blog post
+description: an example of a distill-style blog post and main elements
+tags: distill formatting
+giscus_comments: true
+date: 2021-05-22
+featured: true
+mermaid:
+  enabled: true
+  zoomable: true
+code_diff: true
+map: true
+chart:
+  chartjs: true
+  echarts: true
+  vega_lite: true
+tikzjax: true
+typograms: true
+
+authors:
+  - name: Albert Einstein
+    url: "https://en.wikipedia.org/wiki/Albert_Einstein"
+    affiliations:
+      name: IAS, Princeton
+  - name: Boris Podolsky
+    url: "https://en.wikipedia.org/wiki/Boris_Podolsky"
+    affiliations:
+      name: IAS, Princeton
+  - name: Nathan Rosen
+    url: "https://en.wikipedia.org/wiki/Nathan_Rosen"
+    affiliations:
+      name: IAS, Princeton
+
+bibliography: papers.bib
+---
+This is a test post for distill template integration.
+EOF
 
 cat >"${tmp_override}" <<'YAML'
 giscus:

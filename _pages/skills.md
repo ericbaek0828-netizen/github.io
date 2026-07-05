@@ -22,13 +22,13 @@ nav_order: 4
 
 ### AI & Machine Learning
 
-| Area                               | Details                                                               |
-| ---------------------------------- | --------------------------------------------------------------------- |
-| **Multi-Agent Orchestration**      | Designing agent routing and adversarial critique loops (J.A.R.V.I.S. prototype)       |
-| **Algorithm Design**               | Exploring decision-making frameworks for agent task decomposition                     |
-| **Deep Learning Theory**           | CNNs, RNNs, Transformers — studied independently, taught at CodingLab |
-| **Reinforcement Learning**         | Active study track; exploring applications beyond games               |
-| **Prompt Engineering**             | Harness Engineering workflow for AI-assisted development              |
+| Area                          | Details                                                                         |
+| ----------------------------- | ------------------------------------------------------------------------------- |
+| **Multi-Agent Orchestration** | Designing agent routing and adversarial critique loops (J.A.R.V.I.S. prototype) |
+| **Algorithm Design**          | Exploring decision-making frameworks for agent task decomposition               |
+| **Deep Learning Theory**      | CNNs, RNNs, Transformers — studied independently, taught at CodingLab           |
+| **Reinforcement Learning**    | Active study track; exploring applications beyond games                         |
+| **Prompt Engineering**        | Harness Engineering workflow for AI-assisted development                        |
 
 ---
 

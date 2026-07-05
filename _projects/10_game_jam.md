@@ -8,42 +8,34 @@ category: work
 related_publications: false
 ---
 
-## 🎮 Project Overview
+## 🎮 Overview
 
-- **Event:** 2026 Department Game Jam (June 29 – July 2, 4 days)
-- **Theme:** Decay and Decline (부패와 쇠퇴)
-- **Platform:** PC / 2D side-scrolling adventure game
-- **Team Size:** 3 members (2 developers including myself)
-- **My Role:** Game systems development, UI/UX design, and final presentation delivery.
-- **Result:** Awarded High Commendation (우수평가) with highly positive feedback on development execution.
+A PC-based 2D side-scrolling adventure game developed during the 2026 Department Game Jam (4 days). The game explores a standardized future society where the protagonist must navigate surveillance and persuade citizens to embrace individuality.
 
 ---
 
-## 📖 Synopsis & Gameplay Mechanics
+## 1. 목적 (Purpose)
 
-### Synopsis
+To push the limits of rapid prototyping and system design under extreme time constraints (4 days), validating the feasibility of AI-assisted workflows in a competitive environment.
 
-In a standardized future society where genetic optimization is mandated at birth, the protagonist is born with an unoptimized mind. Navigating surveillance and suspicion, the player must decide whether to hide and survive or actively persuade citizens to stand up for individuality and coexistence.
+## 2. 주제 (Topic)
 
-### Key Gameplay Systems
+A 2D pixel-art side-scrolling adventure game exploring the narrative theme of "Decay and Decline (부패와 쇠퇴)".
 
-1. **Suspicion Gauge System (의심도 시스템):** A core mechanic where acting outside societal norms increases the player's suspicion level, triggering heightened guard surveillance and patrol alerts.
-2. **Stat-Based Persuasion (스탯 기반 설득):** Conversations with NPCs dynamically adjust in difficulty depending on the player's current suspicion gauge and custom stats (Rhetoric, Speed, Charisma).
-3. **Multi-Ending Narrative (멀티 엔딩):** The game branches into multiple endings depending on the player's choices (survival via hiding vs. establishing a diverse community).
+## 3. 공학적 이론이나 방법론 (Engineering Methodology)
 
----
+**AI-Assisted System Orchestration.** Rather than manually coding every script, I utilized Antigravity IDE injected with custom skills to accelerate C# and Unity mechanics implementation, establishing a modern, highly efficient development pipeline.
 
-## 🛠️ Development Workflow & Technical Implementation
+## 4. 본인의 역할 및 기여도 (My Role & Contribution)
 
-Due to time constraints (4 days) and limited engineering resources, I established a rapid prototyping workflow:
+**Game System Designer & Orchestrator.** Designed core mechanics such as the **Suspicion Gauge System** (triggering guard patrols based on abnormal behavior) and **Stat-Based Persuasion** dialogue trees. Acted as the primary orchestrator, directing AI workflows to translate these high-level designs into functional C# code.
 
-- **AI-Assisted Prototyping:** Used AI code assistants to write and debug 2D physics collision detection, player movement controls, and event handler systems for the dialogue/persuasion mechanics.
-- **UI Design:** Designed interactive game menus and dialogue interfaces in Figma, translating them directly into front-end components.
-- **Review Feedback:** The engineering judges praised the robust mechanics and the high level of polish achieved in a short timeframe, noting the efficiency of the AI-assisted development workflow.
+## 5. 문제 해결 과정 및 설계 논리 (Problem-Solving Process & Design Logic)
 
----
+During the intense 4-day sprint, the primary challenge was the AI's "context degradation"—forgetting old code dependencies or introducing conflicting logic as the codebase grew. I tackled this by strictly managing prompt contexts, isolating system components, and establishing an effective state management strategy. This demonstrated advanced architectural control, proving that AI limitations can be overcome through human-directed system design.
 
-## 📌 Reflection & Learning Points
+## 6. 결과물 및 성과 (Results & Achievements)
 
-- **Narrative Integration:** While the game was strong technically and the core systems worked reliably, integrating complex social-critique themes into a short game's narrative proved challenging.
-- **Collaboration:** Taught me how to manage a tight schedule, split programming responsibilities with another developer, and translate high-level design ideas into functional mechanics under a strict deadline.
+Successfully delivered a fully playable, functional Unity prototype (C#, ShaderLab) within the 4-day deadline. The engineering judges praised the robust mechanics and the high level of polish achieved in a short timeframe, awarding the project **High Commendation (우수평가)** for execution.
+
+**[Source Code Available on GitHub](https://github.com/jam777790/-)**

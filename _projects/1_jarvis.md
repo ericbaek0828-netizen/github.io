@@ -8,56 +8,37 @@ category: work
 related_publications: false
 ---
 
-## 🧠 Project Overview
+## 🧠 Overview
 
-**J.A.R.V.I.S.** (Just A Rather Very Intelligent System) is an independent development project where I prototype a multi-agent orchestration architecture. The goal is to build an autonomous collaborator that can break down tasks, generate code, execute it in a safe sandbox, and self-correct based on execution feedback.
-
----
-
-## 🏛️ System Architecture
-
-The core pipeline operates as a closed-loop multi-agent workflow:
-
-```
-[User Goal]
-     ↓
-[Harley (PM) — Task Decomposition & PRD]
-     ↓
-Loop (Self-Correction):
-  [Friday (Generator) — Code Implementation]
-     ↓
-  [Docker Sandbox — Execution & Test Run]
-     ↓
-  [Edith (QA Auditor) — Code Review & Verdict]
-     ↓ (FAIL -> Retry with critique | PASS -> Ship)
-[Final Output]
-```
-
-### Agent Roles
-
-- **Harley (Product Manager):** Decomposes user goals into actionable sub-tasks and defines the criteria for completion.
-- **Friday (Developer Agent):** Generates and refines code implementations based on the requirements.
-- **Edith (QA Auditor):** Reviews generated code, checks for potential bugs, and issues a `PASS` or `FAIL` verdict.
-
-### Key Engineering Elements
-
-- **Automated Self-Correction Loop:** Friday and Edith engage in a direct critique-correction cycle. If Edith finds an issue, Friday revises the code using the feedback without requiring manual human intervention.
-- **Docker Sandboxing:** To safely execute generated code during testing, the runtime runs scripts in an isolated, network-disabled Docker container (`python:3.11-slim` with memory limits).
-- **Execution Safeguards:** Implemented an Infinite Loop Freeze Gateway that pauses the process and serializes the sprint state if the same execution error repeats consecutively, preventing infinite execution loops.
+**J.A.R.V.I.S.** (Just A Rather Very Intelligent System) is an independent, ongoing architectural design project aimed at building an autonomous collaborator. It prototypes a multi-agent orchestration architecture to handle complex developer tasks.
 
 ---
 
-## 🛠️ Technical Stack
+## 1. 목적 (Purpose)
 
-- **Runtime:** Node.js (TypeScript) + Jarvis CLI
-- **Agent Integration:** Prompt-based agent state machine routing
-- **Sandbox Environment:** Docker API client for container management
-- **Development Tooling:** Obsidian for personal knowledge management and architecture planning
+To resolve chronic limitations of current Large Language Models (LLMs)—specifically **Hallucination** (fabricating facts or executing incorrect logic) and **Context Degradation / Loss of Focus** in complex, multi-step tasks. Ultimately, the project strives to achieve end-to-end task automation to eliminate repetitive, tedious developer workflows.
 
----
+## 2. 주제 (Topic)
 
-## 💡 Future Directions: Social Context Modeling
+**Autonomous Multi-Agent Orchestration Prototype.** Building a closed-loop system where multiple AI agents collaborate, generate code, execute it in a safe sandbox, and self-correct based on execution feedback.
 
-In addition to the core code execution pipeline, I am interested in exploring how AI agents can interact more naturally with humans. I have conceptualized a **Nunchi (눈치) Engine**—a theoretical model designed to adapt agent communication tones based on implicit contextual cues (such as dry/short messaging patterns or response latency).
+## 3. 공학적 이론이나 방법론 (Engineering Methodology)
 
-During the 2026 Department Game Jam, I had the opportunity to present a high-level abstraction of this context-weighting idea (incorporating HRI/non-verbal signals) to Department Head Prof. Seong-jun Park, discussing its theoretical application in human-robot interaction.
+**Persona-based Multi-Agent Orchestration.** Instead of relying on a single monolithic model which frequently suffers from context degradation, the system assigns narrow, hyper-focused roles to specific agents. By enforcing strict boundaries, agents can collaborate and cross-verify each other's outputs efficiently.
+
+## 4. 본인의 역할 및 기여도 (My Role & Contribution)
+
+**Sole Architect.** Conceptualized the core orchestration pipeline and designed the prompt-based agent state machine routing.
+
+## 5. 문제 해결 과정 및 설계 논리 (Problem-Solving Process & Design Logic)
+
+To effectively suppress hallucinations, I designed a **Self-Correction Loop** involving two primary agents:
+
+- **Friday (Developer Agent):** Generates and refines code implementations.
+- **Edith (QA Auditor Agent):** Reviews generated code, checks for potential bugs, and issues a `PASS` or `FAIL` verdict.
+
+When Edith issues a `FAIL` verdict, Friday must revise the code based on the specific critique without manual human intervention. To guarantee safety during this autonomous execution, I integrated a **Docker Sandbox** (`python:3.11-slim`), running scripts in an isolated, network-disabled container with strict memory limits and infinite-loop freeze gateways.
+
+## 6. 결과물 및 성과 (Results & Achievements)
+
+Currently in the **core architecture design and orchestration logic planning phase (WIP)**. The theoretical foundation is laid for a fully autonomous developer agent pipeline. Future directions include exploring a "Nunchi (눈치) Engine"—adapting agent communication tones based on implicit contextual cues for enhanced human-robot interaction.

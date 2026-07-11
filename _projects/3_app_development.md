@@ -1,51 +1,51 @@
 ---
 layout: page
-title: "Practical Problem Solving & App Development"
-description: Engineering real-world solutions through mobile apps and desktop applications.
+title: "App Development: Experimental Projects"
+description: 내부 연구 및 실험 목적으로 진행한 UI/UX, 사용자 모델링, 알고리즘 설계 프로젝트.
 img: assets/img/1.jpg
 importance: 1
 category: work
 ---
 
-## 🛠️ Overview
+## 🧭 Overview
 
-Beyond theoretical AI research, I am deeply passionate about **building practical products that solve real-world inconveniences**. These projects demonstrate my ability to take an idea from conceptualization to deployment, combining algorithmic logic with user-centric design.
-
----
-
-## 1. Shoe Customizer App (신발 커스텀 앱)
-
-A mobile application designed to solve the difficulty of customizing plain white sneakers online. 
-
-- **Problem:** Users lack a virtual environment to test different designs on shoes before purchasing or modifying them.
-- **Solution:** Developed an intuitive customization app using **App Inventor**.
-- **Features:** 
-  - Segmented the shoe model into different customizable parts (laces, logo, insoles, etc.).
-  - Implemented an interactive color-fill and image-overlay system.
-  - Successfully launched a beta version with core color-customization mechanics.
-- **My Role:** Led the app programming, focusing on logic design and rapid prototyping.
+이 프로젝트들은 실제 배포를 목적으로 하기보다는, **앱인벤터와 파이썬을 활용하여 아이디어를 설계하고 내부적으로 실험(Research & Experiment)**해 보는 데 초점을 맞추었습니다. 이를 통해 UI/UX의 중요성, 추천 알고리즘의 한계와 구현, 그리고 실제 환경에 알고리즘을 적용하는 방법을 배웠습니다.
 
 ---
 
-## 2. Eco-Friendly Fashion Coord & 3D Avatar App
+## 1. 신발 커스텀 앱: UI/UX 설계 실험
 
-A fashion coordination application integrating body-type analysis with eco-friendly purchasing logic.
+흰 무지 운동화를 온라인에서 손쉽게 커스터마이징할 수 있는 앱을 기획하고 개발했습니다. 
 
-- **Concept:** Users receive outfit recommendations tailored to their specific body types. If they purchase items bearing an "eco-friendly certification mark," a portion of the proceeds is automatically donated to environmental causes.
-- **Development Process:** 
-  - Initially designed a **3D avatar system** to perfectly simulate the user's body type.
-  - Adapted the system to a highly responsive 2D avatar beta version due to mobile rendering constraints, proving the core logic and recommendation algorithm.
-- **Future Plans:** Expanding the current 2D algorithm back into a 3D environment by integrating advanced computer vision and rendering data.
+- **목적:** 앱인벤터를 활용한 UI/UX 설계 실험
+- **기능:** 신발 끈, 로고, 깔창 등 요소별 색상 채우기 및 이미지 커스터마이징
+- **연구적 의미:**
+  - 사용자 인터페이스(UI/UX) 설계의 중요성을 깊이 이해했습니다.
+  - 팀 프로젝트 내에서 기술적 해결사 역할을 수행하며 협업 역량을 키웠습니다.
+- **현재 상태:** 베타 버전까지 완성하여 로컬 테스트를 진행했으며, 공식 배포 없이 내부 연구·실험용 프로젝트로 성공적으로 마무리했습니다.
 
 ---
 
-## 3. Automated Seat Arrangement Program (좌석 배치 프로그램)
+## 2. 패션 코디 앱: 사용자 모델링 실험
 
-A desktop/web utility designed to eliminate the daily inconvenience of manual seat assignments in classrooms or offices.
+사용자의 체형에 맞는 옷 추천과 친환경 인증 마크 기부 개념을 결합한 앱을 기획하고 개발했습니다. 
 
-- **Problem:** Randomizing and assigning seats manually is time-consuming and often lacks fairness constraints (e.g., separating certain individuals or balancing demographics).
-- **Solution:** Coded a fully automated seating algorithm.
-- **Features:** 
-  - Allows custom constraints and weighted randomization.
-  - Provides a clean, immediate visual output of the seating chart.
-- **Impact:** Directly improved the efficiency of daily administrative tasks in a classroom setting, showcasing my ability to translate algorithmic logic into everyday convenience.
+- **목적:** 사용자 모델링과 추천 알고리즘 설계 실험
+- **기능:** 사용자 체형 입력에 따른 추천 옷 목록 제공 및 친환경 인증 마크 연동
+- **연구적 의미:**
+  - 사용자 모델링과 추천 알고리즘의 기본 작동 원리를 이해했습니다.
+  - 모바일 환경에서의 기술적 한계(3D 아바타 렌더링 부하)를 인지하고, 이를 2D 아바타로 대체하는 현실적인 문제 해결 과정을 경험했습니다.
+- **현재 상태:** 2D 아바타 기반의 베타 버전까지 완성하여 로컬 테스트를 진행했으며, 연구·실험용 프로젝트로 마무리했습니다.
+
+---
+
+## 3. 학급 좌석 배치 프로그램: 알고리즘 설계 실험
+
+학급의 효율적인 좌석 배치를 위해 전용 프로그램을 파이썬으로 개발했습니다. 
+
+- **목적:** 알고리즘 설계와 실제 환경 적용 실험
+- **기능:** 학생 특성(성적, 행동 특성 등)과 다양한 제약 조건을 고려한 자동 좌석 배치 알고리즘 설계
+- **연구적 의미:**
+  - 이론적인 알고리즘 설계와 실제 적용 시 발생하는 엣지 케이스(Edge cases)의 차이를 이해했습니다.
+  - 학급 전체의 행정적 비효율성을 해소하는 기술적 해결사 역할을 수행했습니다.
+- **현재 상태:** 학급에 실제 적용하여 지속적인 피드백과 보완을 진행했으며, 별도의 외부 공개 없이 내부 실험용으로 마무리했습니다.

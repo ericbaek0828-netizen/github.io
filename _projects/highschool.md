@@ -1,5 +1,6 @@
 ---
 layout: page
+importance: 2
 title: "CodingLab & KSEF 2024 (High School Projects)"
 description: Independent study and research during high school, including re-founding CodingLab and publishing a paper on LLM hallucination suppression at KSEF 2024.
 img: assets/img/3.jpg

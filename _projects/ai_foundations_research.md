@@ -1,5 +1,6 @@
 ---
 layout: page
+importance: 4
 title: "AI & Deep Learning Foundations Research"
 description: "고등학교 재학 중 진행한 대규모 언어 모델(LLM), 딥러닝 수학, 온디바이스 AI, 기술 철학 등 인공지능 심층 탐구 기록"
 img: assets/img/2.jpg

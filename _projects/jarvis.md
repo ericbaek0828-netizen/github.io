@@ -1,5 +1,6 @@
 ---
 layout: page
+importance: 1
 title: "J.A.R.V.I.S. — Multi-Agent Orchestration Prototype"
 description: An independent project prototyping an autonomous multi-agent developer pipeline using Docker container sandboxing.
 img: assets/img/jarvis_canvas.png

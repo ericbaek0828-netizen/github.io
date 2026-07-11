@@ -1,5 +1,6 @@
 ---
 layout: page
+importance: 3
 title: "App Development: Experimental Projects"
 description: 내부 연구 및 실험 목적으로 진행한 UI/UX, 사용자 모델링, 알고리즘 설계 프로젝트.
 img: assets/img/1.jpg

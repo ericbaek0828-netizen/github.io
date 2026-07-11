@@ -1,5 +1,6 @@
 ---
 layout: page
+importance: 10
 title: "Escape from Uniformity (획일화 속 탈출)"
 description: 2026 Department Game Jam Project — A 2D side-scrolling adventure game exploring themes of conformity.
 img: assets/img/12.jpg

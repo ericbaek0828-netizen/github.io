@@ -13,7 +13,7 @@ cv:
         url: https://www.sungkyul.ac.kr/skukr/index.do
         area: Computer Engineering
         studyType: Bachelor's Student
-        start_date: 2026-01
+        start_date: 2026-03
         end_date: present
         score: "3.97 / 4.5"
         courses: "C Programming, Understanding and Application of AI, Basic Writing, Computer Literacy (Excel), College Mathematics, English Communication"
@@ -28,8 +28,8 @@ cv:
         location: Incheon, South Korea
         area: General Studies (Science Track)
         studyType: High School Diploma
-        start_date: 2023-01
-        end_date: 2025-01
+        start_date: 2023-03
+        end_date: 2026-02
         highlights:
           - "Re-founded CodingLab (코딩랩) — delivered a deep learning theory curriculum using teacher training materials"
           - "Information/CS: Rank 2 (consistently top performer across 3 years)"
@@ -55,8 +55,8 @@ cv:
       - company: CodingLab (코딩랩)
         position: Lead Instructor & Re-founder
         location: Incheon Youngsun High School
-        start_date: 2024-03
-        end_date: 2024-12
+        start_date: 2025-03
+        end_date: 2025-12
         summary: When the previous programming club dissolved, I stepped up to recreate the club as CodingLab. Delivered a deep learning theory curriculum using teacher training materials and MIT 6.S191. Conducted ~1 semester of lectures for students with no prior ML background.
         highlights:
           - "Designed 7-week DL curriculum: perceptrons, backpropagation, CNNs, RNNs, Transformers, attention mechanisms"
@@ -149,7 +149,7 @@ cv:
         summary: >
           Conceptual framework and architecture in active planning for a multi-agent orchestration system,
           focusing on layered agent routing, state management, and the Nunchi social context engine.
-        start_date: 2026-01
+        start_date: 2026-04
         end_date: present
         highlights:
           - "Designing layered agent routing and automated quality gates for multi-agent workflows"
@@ -160,8 +160,8 @@ cv:
         summary: >
           2026 Department Game Jam entry. A 2D side-scrolling adventure satirizing conformist society,
           with suspicion gauge, stat-based NPC persuasion, and multi-ending narrative structure.
-        start_date: 2026-06-29
-        end_date: 2026-07-02
+        start_date: 2026-06
+        end_date: 2026-06
         highlights:
           - "Harness Engineering workflow — AI-assisted no-code development as a freshman"
           - "Perfect score in development category; judges called me 'a developer to the bone'"

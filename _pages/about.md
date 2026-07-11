@@ -12,7 +12,7 @@ profile:
     <p>📍 Incheon, South Korea</p>
     <p>📬 ericbaek0828@gmail.com</p>
 
-selected_papers: false
+selected_papers: true
 social: true
 
 announcements:
@@ -26,9 +26,11 @@ latest_posts:
   limit: 3
 ---
 
-Hello! I am **JeongBeom Baek** (백정범), an undergraduate student studying Computer Engineering at **Sungkyul University**. 
+Hello! I am **JeongBeom Baek** (백정범), an undergraduate researcher studying Computer Engineering at **Sungkyul University**.
 
-I am passionate about software engineering, artificial intelligence, and systems design. Currently, I serve as a **Research & Teaching Assistant** under Prof. Hyeji Yang and actively participate in departmental academic initiatives. My independent research focuses on multi-agent orchestration systems, which I develop under the project name **J.A.R.V.I.S.**
+I am passionate about artificial intelligence, specifically focusing on overcoming the fundamental reasoning limitations and hallucinations of Large Language Models (LLMs). My research aims to improve LLM language understanding and information application by integrating human-like **Critical Thinking** mechanisms. Recently, I presented a paper on this approach at the 22nd Korea Science and Engineering Fair (KSEF 2024), where I explored hypothesis generation and verification pipelines via LoRA fine-tuning of LLaMA models.
+
+Currently, I serve as a **Research & Teaching Assistant** under Prof. Hyeji Yang and actively participate in departmental academic initiatives. I also independently develop multi-agent orchestration systems under the project name **J.A.R.V.I.S.**
 
 ---
 

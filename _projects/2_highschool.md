@@ -40,10 +40,4 @@ Proved the hypothesis quantitatively via comparative evaluation. The Baseline LL
 
 ---
 
-## 📚 CodingLab: Student Programming Club (2024)
 
-As the lead instructor of CodingLab (코딩랩), I designed a semester-long curriculum covering the mathematical and structural foundations of neural networks. I prepared 80+ pages of lecture slides and taught topics including:
-
-- **Perceptrons:** Synaptic weights, biases, activation functions (Sigmoid, Tanh, ReLU), cost functions (BCE, MSE), and SGD.
-- **CNN (Convolutional Neural Networks):** Convolution operations, kernel/filter sliding, pooling, and dimensional reduction.
-- **RNN (Recurrent Neural Networks):** Sequence data handling, hidden states, vanishing/exploding gradients, LSTM/GRU architectures, and Attention mechanisms.

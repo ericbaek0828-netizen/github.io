@@ -1,7 +1,7 @@
 ---
 layout: post
 title: App Development Projects Completed
-date: 2024-05-15 00:00:00-0000
+date: 2024-05-15
 inline: true
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: KSEF 2024 Presentation & Award
-date: 2024-11-20 00:00:00-0000
+date: 2024-11-20
 inline: true
 ---
 

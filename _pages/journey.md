@@ -7,124 +7,124 @@ nav_order: 2
 description: A chronological timeline of my research, development, and academic growth.
 ---
 
-인공지능, 소프트웨어 엔지니어링, 그리고 인간을 잇는 기술 철학에 대한 탐구 여정입니다. 작은 아이디어에서 시작해 대규모 시스템 설계로 발전해 나가는 과정을 시간순으로 기록했습니다.
+A journey exploring artificial intelligence, software engineering, and a technology philosophy that connects people. This is a chronological record of how small ideas grew into large-scale system design.
 
 <hr>
 
-## 🎓 2026년: 대학 진학과 독립 연구의 시작
+## 🎓 2026: University and the Start of Independent Research
 
-#### **학습 및 채점 도우미, AI 멘토/멘티 스터디 활동** (2026-04~07)
-*플러터(Flutter)/Dart 개발 학습 및 스터디 그룹 멘토링*
-- **이야기:** 1학년이지만 학과 내 스터디 그룹에서 멘티로서 플러터와 기획을 배우는 동시에, 교수님 주관 스터디 그룹에서는 선배들과 함께 멘토로 활동하며 지식을 공유했습니다. 채점 도우미(TA) 역할도 수행하며 어시스턴트로서의 역량을 다졌습니다.
+#### **Study Group Mentoring & Grading Assistant (TA)** (2026-04 – Present)
+*Learning Flutter/Dart development and mentoring in study groups*
+- **Story:** Even as a freshman, I learned Flutter and product planning as a mentee in a departmental study group, while also serving as a mentor alongside seniors in a professor-led study group, sharing knowledge in both directions. I also worked as a grading assistant (TA), strengthening my capabilities as a research and teaching assistant.
 
-#### **1학기 학점 발표** (2026-07-01)
-*연구와 학업의 균형과 성과 달성*
-- **이야기:** 방대한 독립 연구와 학부 수업을 병행하며 스스로 세운 목표와 학점 성과를 모두 달성, 지속적으로 성장하고 있음을 확인했습니다.
+#### **First-Semester Grade Report** (2026-07-01)
+*Balancing research and coursework, and delivering results*
+- **Story:** While juggling extensive independent research with my undergraduate coursework, I achieved both the goals and the academic results I had set for myself, confirming that I am continuously growing.
 
-#### **교내 사업 추천** (2026-06-15)
-*기술의 사회적 가치 창출 모색*
-- **이야기:** 담당 교수님의 추천으로 교내 사업에 이름을 올리게 되었으며, 이를 통해 연구실 안의 기술을 넘어 창업 및 기술 사업화에 대한 관심을 높이는 계기가 되었습니다.
+#### **Recommendation for a University Initiative** (2026-06)
+*Exploring the social value of technology*
+- **Story:** On my professor's recommendation, I was named to a university initiative. This became a catalyst for expanding my interest beyond lab research toward entrepreneurship and technology commercialization.
 
-#### **학과 게임 잼 참여 (Harness Engineering 활용)** (2026-06-01)
-*2D 어드벤처 게임 기획 및 노코드 개발*
-- **이야기:** 팀 프로젝트에 참여하여 Harness Engineering을 활용해 단기간 내에 노코드로 게임을 기획하고 개발했습니다. 이 과정에서 빠른 프로토타이핑의 장점과 엄밀한 코드 검수의 중요성을 깊이 체감했습니다.
+#### **Department Game Jam (using Harness Engineering)** (2026-06-29)
+*Planning and no-code development of a 2D adventure game*
+- **Story:** I joined a team project and used Harness Engineering to plan and build a game with no-code tooling in a short time. Through this, I deeply felt both the strengths of rapid prototyping and the critical importance of rigorous code inspection.
 
-#### **J.A.R.V.I.S 프로젝트 시작** (2026-04-01 ~ 현재)
-*개인 지능 시스템(Multi-Agent Orchestration) 아키텍처 연구*
-- **이야기:** 단일 LLM의 한계를 극복하기 위해 다중 에이전트와 Harness Engineering을 결합한 지능형 시스템 개발을 시작했습니다. 연구와 일상을 능동적으로 지원하는 시스템을 설계하겠다는 장기적인 목표를 세웠습니다.
+#### **Start of the J.A.R.V.I.S. Project** (2026-04 – Present)
+*Researching a personal intelligence system (Multi-Agent Orchestration) architecture*
+- **Story:** To overcome the limits of a single LLM, I began developing an intelligent system that combines multiple agents with Harness Engineering. I set a long-term goal of designing a system that actively supports both my research and daily life.
 
-#### **SK하이닉스 하인슈타인 멘토 지원 및 성찰** (2026-04-01)
-*멘토진 선발 과정 경험*
-- **이야기:** 멘토로 선발되는 과정에서 아쉽게 최종 탈락하였으나, 이 경험을 통해 스스로의 연구 및 지도 역량을 더욱 날카롭게 벼려야 한다는 결심을 굳히고 JARVIS 프로젝트와 학부 연구에 더욱 몰입하게 되었습니다.
+#### **SK hynix Heinstein Mentor Application & Reflection** (2026-04)
+*Advanced through mentor selection but was ultimately not chosen*
+- **Story:** I was regrettably eliminated in the final stage of the mentor selection process. This experience firmed my resolve to sharpen my research and mentoring capabilities further, and I immersed myself even more deeply in the JARVIS project and my undergraduate research.
 
-#### **학부 연구생(RA) 및 조교(TA) 활동 시작** (2026-04-01)
-*학과 이수 체계도 리모델링 참여 및 수업 지원*
-- **이야기:** 1학년임에도 학과 연구 프로젝트에 참여하고 가르치는 경험을 쌓으며, 파편화된 지식을 체계화하고 학문적 커뮤니티에 실질적으로 기여하는 법을 배웠습니다.
+#### **Start as Research Assistant (RA) & Teaching Assistant (TA)** (2026-04)
+*Participating in remodeling the department's curriculum roadmap and supporting classes*
+- **Story:** Despite being a freshman, I participated in departmental research projects and gained teaching experience, learning how to systematize fragmented knowledge and contribute substantively to the academic community.
 
-#### **미디어 소프트웨어학과 진학** (2026-03-01)
-*본격적인 학술 연구 및 개발의 첫걸음*
-- **이야기:** 고등학교 시절의 융합 탐구를 바탕으로, 대학 시스템 내에서 보다 체계적이고 전문적인 컴퓨터 공학 연구를 시작하게 되었습니다.
-
-<hr>
-
-## 🔬 2025년 (고등학교 3학년): AI의 본질과 철학적 탐구
-
-#### **미디어 탐색 활동: SNN 구조와 작동 원리 탐구** (2025-10)
-*인간 뉴런을 모방한 스파이킹 신경망(SNN) 고찰*
-- **이야기:** 생물학적 뉴런과 인공신경망의 연결성을 탐구하며, 기존 ANN의 한계를 넘어선 보다 생물학적으로 현실적인 AI 모델과 LLM 개선 아이디어에 대한 관심을 키웠습니다.
-
-#### **인물 탐구 활동: 제프리 힌턴 생애 및 업적 탐구** (2025-09)
-*연구자의 철학 인식 확장*
-- **이야기:** 인공지능 발전의 본질을 이끈 혁신적 태도에 깊은 인상을 받았으며, 타협하지 않는 학자적 자세를 통해 제 자신의 연구 철학을 형성하는 중요한 계기가 되었습니다.
-
-#### **학급 좌석 배치 프로그램 개발** (2025-08)
-*효율적인 학급 운영을 위한 알고리즘 설계 및 코딩*
-- **이야기:** 실제 교실에서 발생하는 문제를 해결하기 위해 소프트웨어를 직접 개발 및 적용하며, 기술이 어떻게 일상생활의 비효율을 개선할 수 있는지 현장에서 경험했습니다.
-
-#### **인공지능과 피지컬컴퓨팅: 온디바이스 AI 칩 및 경량화 연구** (2025-07)
-*대형 LLM의 전력 소비 한계 극복을 위한 sLLM, 지식 증류, 양자화 탐구*
-- **이야기:** 소프트웨어 최적화뿐만 아니라 하드웨어와의 융합을 통해 지속 가능한(Sustainable) AI 생태계를 만들어야 한다는 비전을 세우게 되었습니다.
-
-#### **사회문제탐구: AI 과의존 및 환각 부작용 보고서 작성** (2025-06)
-*인문사회학적 관점의 기술 비평*
-- **이야기:** AI 환각(Hallucination) 위험과 사고력 약화 등 기술 발전의 이면을 분석하며, 기술의 발전 속도와 인간 고유 가치 보존 사이의 윤리적 균형을 깊이 고민했습니다.
-
-#### **미적분: 인공신경망 역전파의 미분 역량 입증** (2025-05)
-*퍼셉트론 순전파 및 역전파의 벡터/수학 함수 고찰*
-- **이야기:** Chain Rule을 이용한 경사하강법 구조를 수식으로 직접 유도하고 시각화하며, 딥러닝 모델 내부 동작 원리에 대한 수학적 기초를 엄밀하게 다졌습니다.
-
-#### **독서 탐구: ≪사피엔스≫ 정독 및 서평 작성** (2025-04)
-*인류 역사와 기술 발전의 상관관계 성찰*
-- **이야기:** 인류의 지배 구조 확장을 거시적 관점에서 이해하고, 훗날 인공지능이 인류의 미래와 사회 구조에 어떠한 역할을 미치게 될 것인지 진지하게 고민했습니다.
-
-#### **코딩랩 동아리 TA: 인공지능 주제 강의 기획 및 진행** (2025-03)
-*배우고-해보고-가르치는 학습법의 실천*
-- **이야기:** 부원들에게 코딩 기초와 AI 개념을 재교육하며, 가르치는 과정에서 스스로의 지식을 체계화하고 연구자로서 필수적인 커뮤니케이션 능력을 크게 강화했습니다.
+#### **Enrolled in Media Software** (2026-03)
+*The first step into full-fledged academic research and development*
+- **Story:** Building on my interdisciplinary explorations in high school, I began pursuing more systematic and specialized computer science research within a university system.
 
 <hr>
 
-## 💡 2024년 (고등학교 2학년): 기술적 한계 돌파와 실전 실험
+## 🔬 2025 (High School, Grade 3): The Nature of AI and Philosophical Inquiry
 
-#### **프로그래밍 클래스: LLM 기반 Q&A 파이프라인 실험 설계** (2024-11)
-*Llama 3.2 모델 기반 가설 검증 및 응답 생성 성능 분석*
-- **이야기:** 실제 모델을 로컬 환경에서 다루며 LLM의 성능과 한계를 직접 겪어보고, 가설 기반의 실험 설계와 엄밀한 성능 평가의 중요성을 깨달았습니다.
+#### **Media Exploration: Structure and Principles of SNNs** (2025-10)
+*Studying spiking neural networks (SNNs) that mimic human neurons*
+- **Story:** By exploring the connection between biological neurons and artificial neural networks, I grew interested in more biologically realistic AI models that go beyond the limits of conventional ANNs, and in ideas for improving LLMs.
 
-#### **진로연계 심화주제탐구: AI가 한국 사회 시스템에 가져올 영향** (2024-09)
-*노동, 행정, 교육 등 분야별 AI 영향 종합 분석*
-- **이야기:** 기술적 구현을 넘어 기술 발전이 사회 전반에 미치는 거시적 영향을 분석하며, AI 리터러시와 윤리적 통제의 중요성을 인식했습니다.
+#### **Figure Study: The Life and Work of Geoffrey Hinton** (2025-09)
+*Expanding my perception of a researcher's philosophy*
+- **Story:** I was deeply impressed by the innovative attitude that drove the essence of AI's progress. His uncompromising scholarly stance became an important moment in shaping my own research philosophy.
 
-#### **대규모 언어모델(LLM) 주제탐구활동** (2024-06-03 ~ 08-23)
-*LLM의 문장 의도 파악 한계 분석 및 직접 구현 실험*
-- **이야기:** "LLM이 정말로 언어를 이해하는가?"라는 본질적인 질문을 던지며, 인공지능의 단순 확률론적 언어 모델링을 넘어서는 진정한 이해(Understanding) 메커니즘 탐구를 시작했습니다.
+#### **Classroom Seat Arrangement Program** (2025-08)
+*Designing and coding an algorithm for efficient classroom management*
+- **Story:** I built and deployed software myself to solve a real problem in the classroom, experiencing first-hand how technology can improve everyday inefficiencies.
 
-#### **KSEF 연구: LLM 문해력 한계 극복 방안 논문 작성** (2024-06)
-*LLM 전력 소비 문제 인지 및 양자화/경량화 기술 조사*
-- **이야기:** 모델의 한계를 극복하기 위한 소프트웨어적 해결책뿐만 아니라 에너지 효율까지 고려하게 되면서, 지속 가능한 인공지능 아키텍처에 대한 시야를 넓혔습니다.
+#### **AI & Physical Computing: On-Device AI Chips & Model Compression** (2025-07)
+*Exploring sLLMs, knowledge distillation, and quantization to overcome the power consumption limits of large LLMs*
+- **Story:** I came to envision that we must build a sustainable AI ecosystem not only through software optimization but also through convergence with hardware.
 
-#### **코딩랩 동아리: 신발 커스텀 앱 및 패션 코디 앱 개발** (2024-05)
-*추천 알고리즘 도입, 3D 아바타 설계 시도 및 2D 대체 적용*
-- **이야기:** 사용자 중심의 UI/UX 설계와 친환경 기부 개념을 결합하며, 기술이 가져야 할 사회적 책임과 이상과 현실(기술적 제약) 사이의 타협점을 찾는 법을 배웠습니다.
+#### **Social Issues: Report on AI Over-Dependence and Hallucination** (2025-06)
+*A critique of technology from a humanities and social science perspective*
+- **Story:** Analyzing the downsides of technological progress—such as the risk of AI hallucination and the weakening of critical thinking—I reflected deeply on the ethical balance between the pace of technological advancement and the preservation of uniquely human value.
 
-#### **데이터 과학: 빅데이터 분석 도구 R 언어 탐구** (2024-04-17 ~ 05-10)
-*비정형 데이터 시각화 선행 자료 분석*
-- **이야기:** 정제되지 않은 데이터의 숨은 가치와 시각화의 강력함을 체감하며, 데이터 기반의 객관적 의사결정 프로세스에 큰 매력을 느꼈습니다.
+#### **Calculus: Proving the Differentiation Behind Backpropagation** (2025-05)
+*Examining the vector/mathematical functions of perceptron forward and backward propagation*
+- **Story:** By personally deriving and visualizing the structure of gradient descent using the chain rule, I rigorously built the mathematical foundation for how deep learning models work internally.
+
+#### **Reading Inquiry: A Close Reading and Review of *Sapiens*** (2025-04)
+*Reflecting on the correlation between human history and technological progress*
+- **Story:** Understanding the expansion of humanity's structures of dominance from a macro perspective, I seriously considered what role artificial intelligence might one day play in humanity's future and social structures.
+
+#### **CodingLab TA: Planning and Delivering AI Lectures** (2025-03)
+*Practicing the "learn–do–teach" learning method*
+- **Story:** By re-teaching coding fundamentals and AI concepts to club members, I systematized my own knowledge through the act of teaching and greatly strengthened the communication skills essential to a researcher.
 
 <hr>
 
-## 🌱 2023년 (고등학교 1학년): 프로그래밍과 AI의 첫 만남
+## 💡 2024 (High School, Grade 2): Breaking Technical Limits and Hands-On Experiments
 
-#### **진로활동: 개발자 직업 탐색 및 창업 캠프** (2023-10)
-*개발자/컴퓨터공학 사전 작성 및 옷 추천 AI 아이디어 구상*
-- **이야기:** 막연했던 개발자라는 진로를 구체화하고, 내가 만든 기술이 창업이라는 비즈니스 모델을 통해 세상과 연결될 수 있음을 탐구했습니다.
+#### **Programming Class: Designing an LLM-Based Q&A Pipeline Experiment** (2024-11)
+*Analyzing hypothesis-verification and response-generation performance with the Llama 3.2 model*
+- **Story:** Working with a real model in a local environment, I directly experienced the performance and limits of LLMs and realized the importance of hypothesis-based experiment design and rigorous performance evaluation.
 
-#### **코딩파티 동아리: Python 기초 및 게임 프로그래밍** (2023-09)
-*조건문, 반복문, 함수를 활용한 Up-Down 게임, 단어 맞춤 게임 제작*
-- **이야기:** 코드를 작성하고 의도대로 작동하는 결과를 확인하며, 프로그래밍이 요구하는 논리적 사고력과 문제 해결의 즐거움을 처음으로 깊게 경험했습니다.
+#### **Career-Linked Deep Inquiry: AI's Impact on Korean Social Systems** (2024-09)
+*A comprehensive analysis of AI's impact across labor, administration, education, and more*
+- **Story:** Beyond technical implementation, I analyzed the macro-level impact of technological progress on society as a whole, recognizing the importance of AI literacy and ethical governance.
 
-#### **미래창의융합 메이커 프로젝트: 신발 커스텀 앱 기획** (2023-08-02 ~ 08-04)
-*앱 인벤터를 활용한 팀 프로젝트 핵심 개발 역할*
-- **이야기:** 처음으로 UI/UX 디자인을 경험하며, 작은 소프트웨어가 일상생활의 불편함을 어떻게 창의적으로 바꿀 수 있는지 깨달았습니다.
+#### **Large Language Model (LLM) Inquiry Activity** (2024-06 – 08)
+*Analyzing LLMs' limits in grasping sentence intent and implementing experiments directly*
+- **Story:** Asking the fundamental question, "Do LLMs really understand language?", I began exploring mechanisms for true understanding that go beyond simple probabilistic language modeling.
 
-#### **나노물질 센서 작동 활동 참여** (2023-06-10)
-*나노 물질을 이용한 센서 성능 향상 원리 학습 및 가상 보고서 작성*
-- **이야기:** 미시적인 작은 기술 혁신이 거대한 시스템의 변화를 만든다는 점을 깨닫고, 훗날 나노 기술과 AI 센서 네트워크의 융합 가능성에 흥미를 가지게 되었습니다.
+#### **KSEF Research: Writing a Paper on Overcoming LLM Comprehension Limits** (2024-06)
+*Recognizing the power consumption problem of LLMs and surveying quantization/compression techniques*
+- **Story:** As I considered not only software solutions to overcome model limitations but also energy efficiency, I broadened my perspective on sustainable AI architectures.
+
+#### **CodingLab: Shoe-Customization & Fashion Coordination Apps** (2024-05)
+*Introducing recommendation algorithms, attempting a 3D avatar design, and applying a 2D alternative*
+- **Story:** By combining user-centric UI/UX design with an eco-friendly donation concept, I learned about the social responsibility technology should carry and how to find a compromise between ideals and reality (technical constraints).
+
+#### **Data Science: Exploring the Big-Data Analysis Language R** (2024-04 – 05)
+*Analyzing preliminary materials on unstructured data visualization*
+- **Story:** Experiencing the hidden value of unrefined data and the power of visualization, I was strongly drawn to data-driven, objective decision-making processes.
+
+<hr>
+
+## 🌱 2023 (High School, Grade 1): First Encounters with Programming and AI
+
+#### **Career Activity: Exploring the Developer Profession & Startup Camp** (2023-10)
+*Compiling a developer/computer-science glossary and conceiving a clothing-recommendation AI idea*
+- **Story:** I made the vague path of "developer" concrete and explored how the technology I create could connect to the world through the business model of a startup.
+
+#### **Coding Party Club: Python Basics & Game Programming** (2023-09)
+*Building an Up-Down game and word-guessing games using conditionals, loops, and functions*
+- **Story:** Writing code and watching it work as intended, I deeply experienced for the first time the logical thinking programming demands and the joy of problem-solving.
+
+#### **Future Creative Convergence Maker Project: Shoe-Customization App Planning** (2023-08)
+*A core development role in a team project using App Inventor*
+- **Story:** Experiencing UI/UX design for the first time, I realized how a small piece of software can creatively transform the inconveniences of daily life.
+
+#### **Nanomaterial Sensor Activity** (2023-06)
+*Learning the principles of improving sensor performance using nanomaterials and writing a mock report*
+- **Story:** Realizing that small, microscopic technical innovations create change in vast systems, I became interested in the future convergence of nanotechnology and AI sensor networks.

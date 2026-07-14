@@ -11,7 +11,7 @@ cv:
       - institution: Sungkyul University (성결대학교)
         location: Anyang, South Korea
         url: https://www.sungkyul.ac.kr/skukr/index.do
-        area: Computer Engineering
+        area: Media Software
         studyType: Bachelor's Student
         start_date: 2026-03
         end_date: present
@@ -50,7 +50,7 @@ cv:
         highlights:
           - "Exceeded academic assignment requirements by analyzing 40+ international papers on AI agents and RL"
           - "Recommended by Prof. Hyeji Yang to participate in a university curriculum development project"
-          - "Discussed Nunchi (눈치) humor-weight algorithm concept with Prof. Seong-jun Park (Dept. Head), resulting in an encouraging exploration of human-robot interaction"
+          - "Invited by Prof. Seong-jun Park (Dept. Head) to join his Physical-AI research after explaining my projects at the game jam; proposed a Nunchi/Humor-weight concept for human-robot interaction the next day"
 
       - company: CodingLab (코딩랩)
         position: Lead Instructor & Re-founder
@@ -80,7 +80,7 @@ cv:
           - JeongBeom Baek
         date: 2024-01
         publisher: "22nd KSEF Science Project Competition (한국과학기술경진대회)"
-        url: https://ericbaek0828-netizen.github.io/assets/pdf/KSEF_2024_Paper.pdf
+        url: https://ericbaek0828-netizen.github.io/github.io/assets/pdf/KSEF_2024_Paper.pdf
         summary: >
           Proposed applying human critical thinking patterns to LLM inference — generating and
           verifying logical hypotheses before producing responses, rather than direct token prediction.
@@ -92,13 +92,13 @@ cv:
           - "21% improvement in language understanding score over baseline Llama 3.2"
           - "Implemented hypothesis-generation pipeline: context → generate all logical hypotheses → verify → select most valid → respond"
           - "Fine-tuned using Unsloth + LoRA (rank 16, alpha 16) with 4-bit quantization on Google Colab"
-          - "[Download Presentation](/assets/pdf/KSEF_2024_Presentation.pptx)"
+          - "[Download Presentation](https://ericbaek0828-netizen.github.io/github.io/assets/pdf/KSEF_2024_Presentation.pptx)"
 
     Awards:
-      - title: 2026 Department Game Jam — High Commendation
+      - title: 2026 Department Game Jam — 'Escape from Uniformity'
         authors:
-          - "Sungkyul University, Computer Engineering Dept."
-        date: 2026-07-01
+          - "Sungkyul University, Media Software Dept."
+        date: 2026-06-29
         awarder: Sungkyul University
         summary: >
           Built 'Escape from Uniformity' — a 2D side-scrolling adventure with suspicion gauge,
@@ -164,7 +164,7 @@ cv:
         end_date: 2026-06
         highlights:
           - "Harness Engineering workflow — AI-assisted no-code development as a freshman"
-          - "Perfect score in development category; judges called me 'a developer to the bone'"
+          - "Received highly positive verbal feedback from judges on development execution"
 
       - name: Critical Thinking LLM (KSEF 2024)
         summary: >

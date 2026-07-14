@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='https://www.sungkyul.ac.kr/skukr/index.do'>Sungkyul University</a> · Computer Engineering · Incheon, South Korea · ericbaek0828@gmail.com
+subtitle: <a href='https://www.sungkyul.ac.kr/skukr/index.do'>Sungkyul University</a> · Media Software · Incheon, South Korea · ericbaek0828@gmail.com
 
 profile:
   align: right
@@ -26,7 +26,7 @@ latest_posts:
   limit: 3
 ---
 
-Hello! I am **JeongBeom Baek** (백정범), an undergraduate researcher studying Computer Engineering at **Sungkyul University**.
+Hello! I am **JeongBeom Baek** (백정범), an undergraduate researcher studying Media Software at **Sungkyul University**.
 
 I am passionate about artificial intelligence, specifically focusing on overcoming the fundamental reasoning limitations and hallucinations of Large Language Models (LLMs). My research aims to improve LLM language understanding and information application by integrating human-like **Critical Thinking** mechanisms. Recently, I presented a paper on this approach at the 22nd Korea Science and Engineering Fair (KSEF 2024), where I explored hypothesis generation and verification pipelines via LoRA fine-tuning of LLaMA models.
 
@@ -40,7 +40,7 @@ Currently, I serve as a **Research & Teaching Assistant** under Prof. Hyeji Yang
 An independent project designing a multi-agent orchestration architecture (Harley as PM, Friday as Code Generator, and Edith as QA Auditor) with Docker-based execution sandboxing.
 
 ### [Escape from Uniformity (획일화 속 탈출)](/projects/10_game_jam/)
-A 2D side-scrolling adventure game built for the **2026 Department Game Jam** over 4 days. Implemented a suspicion gauge system and stat-based dialogue mechanics, earning high marks for development execution.
+A 2D side-scrolling adventure game built for the **2026 Department Game Jam** over 4 days. Implemented a suspicion gauge system and stat-based dialogue mechanics, receiving positive feedback from judges for development execution.
 
 ### [KSEF & CodingLab — High School AI Projects](/projects/2_highschool/)
 - **KSEF 2024:** Research on applying human-like hypothesis generation and verification pipelines to suppress LLM hallucinations, fine-tuning LLaMA 3.2 3B.
@@ -51,7 +51,7 @@ A 2D side-scrolling adventure game built for the **2026 Department Game Jam** ov
 ## 🎓 Education & Academic Activities
 
 - **Sungkyul University** (2026 - Present)
-  - B.S. in Computer Engineering (GPA: 3.97 / 4.5)
+  - B.S. in Media Software (GPA: 3.97 / 4.5)
   - Key Courses: C Programming (A+), Understanding and Application of AI (A+), College Mathematics (B+)
   - Research & Teaching Assistant under Prof. Hyeji Yang
   - Recommended by Prof. Hyeji Yang for the university curriculum development project

@@ -47,7 +47,7 @@ Teaching revealed exactly where my understanding ended — a more useful signal 
 
 ### 2026, March — University Begins
 
-Enrolled at **Sungkyul University**, Computer Engineering. First semester GPA: **3.97 / 4.5**.
+Enrolled at **Sungkyul University**, Media Software. First semester GPA: **3.97 / 4.5**.
 
 Immediately began working as **Research & Teaching Assistant** under Prof. Hyeji Yang. Recommended by Prof. Yang for the university's curriculum development initiative.
 
@@ -61,13 +61,13 @@ Published the [J.A.R.V.I.S. architecture canvas](/news/announcement_2/) on this 
 
 ---
 
-### 2026, June–July — Game Jam: High Commendation
+### 2026, June 29 — Game Jam & a Conversation with the Department Head
 
-**Department Game Jam** (4 days, 3-person team). Built _Escape from Uniformity_ — a 2D side-scrolling adventure with suspicion gauge, stat-based NPC persuasion, and multi-ending structure.
+**Department Game Jam** (4 days, 3-person team). Built _Escape from Uniformity_ — a 2D side-scrolling adventure with a suspicion gauge, stat-based NPC persuasion, and a multi-ending structure. Used **Harness Engineering** (an AI-assisted workflow) to prototype quickly, and received highly positive verbal feedback from the judges for our development execution.
 
-Used **Harness Engineering** (AI-assisted no-code workflow) to overcome the 2-developer constraint. Received highly positive verbal feedback from judges for our development execution.
+During the jam, **Prof. Seong-jun Park (Department Head)** approached me and asked how I was building the game. As I walked him through my Harness Engineering workflow — orchestrating AI via custom skills and MCP — and my past projects, he kept asking follow-up questions, and asked me to help with his research.
 
-During the event, I discussed the **Humor Weight Algorithm** concept with Prof. Seong-jun Park (Department Head), leading to an encouraging and positive discussion on potential human-robot emotional interaction exploration.
+He shared that he wants to build **Physical AI**: robots that interact naturally with people. This resonated with an idea I had already been developing — a **Nunchi (눈치) engine**. The next day, I concretized it for him: a **Humor weight** (default 0.5) that decides whether a robot answers earnestly or playfully, combining uncontrollable variables (temperature, humidity, time of day) with unconscious human signals (throat/uvula tremor and the movement of the mouth corners, eyebrows, and pupils) to score the moment and modulate its response.
 
 ---
 

@@ -1,6 +1,5 @@
 ---
 layout: page
-importance: 10
 title: "Escape from Uniformity (획일화 속 탈출)"
 description: 2026 Department Game Jam Project — A 2D side-scrolling adventure game exploring themes of conformity.
 img: assets/img/12.jpg
@@ -21,7 +20,7 @@ To push the limits of rapid prototyping and system design under extreme time con
 
 ## 2. 주제 (Topic)
 
-A 2D pixel-art side-scrolling adventure game exploring the narrative theme of "Decay and Decline (부패와 쇠퇴)".
+A 2D pixel-art side-scrolling adventure game exploring the narrative theme of "Uniformity and the Pursuit of Individuality (획일화 속 탈출)".
 
 ## 3. 공학적 이론이나 방법론 (Engineering Methodology)
 
@@ -37,6 +36,6 @@ During the intense 4-day sprint, the primary challenge was the AI's "context deg
 
 ## 6. 결과물 및 성과 (Results & Achievements)
 
-Successfully delivered a fully playable, functional Unity prototype (C#, ShaderLab) within the 4-day deadline. The engineering judges praised the robust mechanics and the high level of polish achieved in a short timeframe, awarding the project **High Commendation (우수평가)** for execution.
+Successfully delivered a fully playable, functional Unity prototype (C#, ShaderLab) within the 4-day deadline. The engineering judges gave highly positive verbal feedback on the robust mechanics and the level of polish achieved in such a short timeframe.
 
 **[Source Code Available on GitHub](https://github.com/jam777790/-)**
